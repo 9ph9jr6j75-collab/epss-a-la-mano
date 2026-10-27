@@ -1,5 +1,5 @@
 'use strict';
-const CACHE='epss-dripssha-20261027-v14';
+const CACHE='epss-dripssha-20261027-v15';
 const VIEWER_MANIFEST='assets/pdfjs/asset-manifest.json';
 const CORE=['./','index.html','styles.css','full-reader.js','document-viewer.js','document-viewer.css','app-v2.js','manifest.webmanifest','assets/icon.svg','assets/icon-180.png','assets/icon-192.png','assets/icon-512.png','assets/social-preview.png','assets/catalogo.json','assets/mr.json','assets/config.json',VIEWER_MANIFEST];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()));});

@@ -960,12 +960,6 @@ body { background:var(--canvas); }
 .utility-product .product-subtitle { font-size:13px; }
 .utility-bar { flex-wrap:wrap;row-gap:10px; }
 .utility-bar > .app-release-info { flex-basis:100%;flex-wrap:wrap;gap:5px 8px;color:#57788e;font-size:11px;line-height:1.6; }
-.app-release-info button { border:0;background:none;padding:3px 0;color:#096b9f;font:inherit;font-weight:650;cursor:pointer; }
-.app-release-info button:hover,.app-release-info button.active { text-decoration:underline; }
-.app-release-card > time { display:block;color:#587c94;font-size:13px;margin-bottom:10px; }
-.app-release-card > .app-release-details { margin:24px 0; }
-.app-release-card .app-release-details dt { font-size:15px;font-weight:650;color:#365b73;margin-top:22px; }
-.app-release-card .app-release-details dd { font-size:14px;line-height:1.75;margin:6px 0 0;max-width:850px; }
 @media(max-width:760px) { .utility-product .utility-brand { font-size:18px; }.utility-product .product-subtitle { font-size:11px; }.utility-bar > .utility-product { gap:2px; } }
 
 #detail-modal .reading-switch { position:sticky;top:70px;z-index:1;background:var(--topic-tint,#e6eff6); }
