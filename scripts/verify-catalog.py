@@ -30,6 +30,12 @@ assert len(mr['historicalSets'][0]['items']) == 22
 assert sum(bool(x['contributesToResultsSum']) for x in mr['historicalSets'][0]['items']) == 21
 assert sum(item.get('code', '').startswith('02-') for item in items) == 6
 assert len({item['sourceId'] for item in items if item.get('code', '').startswith('02-')}) == 2
+posparto = next(item for item in items if item['id'] == '01-02-2.0')
+posparto_codes = {'Z390','Z391','Z392','Z370','Z379','O800','O03','O04','O05','O06','O021','O60'}
+assert {entry['code'].replace('.', '') for entry in posparto['cie10']} == posparto_codes, 'Lista CIE-10 de posparto incompleta'
+assert posparto.get('cie10Note') and posparto.get('cie10NoteSource'), 'Falta aclarar la función de los códigos de posparto'
+source_compact = re.sub(r'\s+', '', posparto['fullText'])
+assert all(code in source_compact for code in posparto_codes), 'Código de posparto sin respaldo en su ficha'
 for item_id, category in [('comp-06-inercia-glicemico', '06'), ('comp-06-inercia-lipidico', '06'), ('comp-07-inercia-terapeutica', '07')]:
     assert next(item for item in items if item['id'] == item_id)['categoryId'] == category
 print(f'Integridad verificada: {len(items)} indicadores, {len(catalog["documents"])} documentos, MR histórica 22/21.')
