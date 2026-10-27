@@ -4,7 +4,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('n
 const {File}=require('node:buffer');
 const root=path.resolve(__dirname,'..');
 const source=fs.readFileSync(path.join(root,'dist/document-viewer.js'),'utf8');
-const {pdfRequest,safeFilename,canvasPlan,sharePreparedFile}=require(path.join(root,'dist/document-viewer.js'));
+const {pdfRequest,safeFilename,canvasPlan,sharePreparedFile,commitPageInput}=require(path.join(root,'dist/document-viewer.js'));
 const base='https://example.test/epss-a-la-mano/';
 assert.deepEqual(pdfRequest('assets/test.pdf#page=205',base),{url:base+'assets/test.pdf',page:205});
 assert.equal(pdfRequest('https://other.test/assets/test.pdf',base),null);
@@ -71,6 +71,12 @@ async function main(){
   const sharing=sharePreparedFile(file,nav,'Original');assert.equal(calls,1,'Compartir debe invocarse en el mismo gesto, sin descargar antes');await sharing;
   await assert.rejects(sharePreparedFile(file,{canShare:()=>false,share:()=>Promise.resolve()},''));
   await assert.rejects(sharePreparedFile(file,{canShare:()=>true,share:()=>{throw Error('Denied');}},''),/Denied/);
+  const pageSession={pdf:{numPages:6},page:1},pageEntry={value:'2',blur(){}};let renderedPage=1,renderCount=0;
+  const renderEntry=session=>{renderedPage=session.page;renderCount++;};
+  assert.equal(commitPageInput(pageSession,pageEntry,renderEntry),true);assert.equal(renderedPage,2,'Confirmar la página debe solicitar su renderizado sin depender de blur ni de change');pageEntry.blur();assert.equal(renderedPage,2);
+  assert.equal(commitPageInput(pageSession,pageEntry,renderEntry),false);assert.equal(renderCount,1,'El change posterior a Enter no debe volver a renderizar la misma página');
+  pageEntry.value='99';commitPageInput(pageSession,pageEntry,renderEntry);assert.equal(renderedPage,6);assert.equal(pageEntry.value,6,'El número debe limitarse al total de páginas');
+  pageEntry.value='-3';commitPageInput(pageSession,pageEntry,renderEntry);assert.equal(renderedPage,1);
   const failed=testEnvironment();await failed.api.open('assets/source.pdf#page=205',{title:'Fuente original',opener:failed.opener,indicator:'01-02-2.0',printMode:true});
   assert.equal(failed.api.isOpen(),true);assert.equal(failed.shell().hidden,false);assert.match(failed.shell().querySelector('[data-doc-status]').textContent,/No se pudo cargar/);
   assert.equal(failed.background.inert,true);assert.equal(failed.shell().querySelector('[data-doc-action="close"]').disabled,false,'Volver siempre debe estar disponible, incluso si falla la carga');
