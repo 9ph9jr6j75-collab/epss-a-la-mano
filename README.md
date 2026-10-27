@@ -22,7 +22,7 @@ La referencia histórica verificada corresponde al RAS del III monitoreo 2025, e
 
 ## Fuentes y créditos
 
-La cabecera muestra la fecha de actualización de la app y el acceso a `#mejoras`. Este historial corresponde a cambios de la herramienta; `#cambios` conserva las modificaciones documentales de las fichas. Al publicar una mejora, actualizar la fecha de la cabecera y añadir una entrada al historial sin atribuir a esa fecha vigencia de los documentos oficiales.
+La cabecera muestra solo la fecha y la hora de la última actualización de la app, en la zona America/Costa_Rica. Al publicar cambios, actualizar el texto y el atributo datetime de esa línea con la fecha y hora reales de la versión. Es un dato fijo de la versión, no un reloj del dispositivo. La sección `#cambios` conserva las modificaciones documentales de las fichas.
 
 Las fichas oficiales corresponden a la Dirección Compra de Servicios de Salud de la CCSS. Se conserva el diseño general EPSS 2024-2028 como base documental y el informe EPSS-PNA 2025 como fuente metodológica. La fecha de recopilación no sustituye una fecha de vigencia.
 
