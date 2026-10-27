@@ -1,0 +1,2639 @@
+{
+  "schemaVersion": 1,
+  "verifiedDate": "2026-10-27",
+  "scope": "Códigos documentados en el diseño EPSS de noviembre de 2024 y referencias clínicas identificadas. Cada entrada indica su función y fuente; el código por sí solo no garantiza el cumplimiento del indicador.",
+  "groups": [
+    {
+      "id": "grupo-1",
+      "title": "Consultas de primera vez en el periodo posnatal",
+      "entries": [
+        {
+          "code": "Z390",
+          "label": "Atención y examen inmediatamente después del parto",
+          "displayCode": "Z39.0",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            17,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z391",
+          "label": "Atención y examen de madre en periodo de lactancia",
+          "displayCode": "Z39.1",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            17,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z392",
+          "label": "Seguimiento postparto de rutina",
+          "displayCode": "Z39.2",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            17,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z370",
+          "label": "Nacido vivo único",
+          "displayCode": "Z37.0",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            17,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z379",
+          "label": "Producto de parto no específico",
+          "displayCode": "Z37.9",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            17,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O800",
+          "label": "Parto único espontáneo presentación cefálica de vértice",
+          "displayCode": "O80.0",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            17,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O03",
+          "label": "Aborto espontáneo",
+          "displayCode": "O03",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            17,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O04",
+          "label": "Aborto médico",
+          "displayCode": "O04",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            17,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O05",
+          "label": "Otro aborto",
+          "displayCode": "O05",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            17,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O06",
+          "label": "Aborto no especificado",
+          "displayCode": "O06",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            17,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O021",
+          "label": "Aborto retenido",
+          "displayCode": "O02.1",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            17,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O60",
+          "label": "Parto prematuro",
+          "displayCode": "O60",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            17,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-02-2.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-2",
+      "title": "Consultas de primera vez en el embarazo",
+      "entries": [
+        {
+          "code": "Z321",
+          "label": "Embarazo confirmado",
+          "displayCode": "Z32.1",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            19,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z33",
+          "label": "Estado de embarazo incidental",
+          "displayCode": "Z33",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            19,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z34",
+          "label": "Supervisión de embarazo normal",
+          "displayCode": "Z34",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            19,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z35",
+          "label": "Supervisión de embarazo de alto riesgo",
+          "displayCode": "Z35",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            19,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z640",
+          "label": "Problemas relacionados con embarazo no deseado",
+          "displayCode": "Z64.0",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            19,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O300",
+          "label": "Embarazo doble",
+          "displayCode": "O30.0",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            19,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O308",
+          "label": "Otros embarazos múltiples",
+          "displayCode": "O30.8",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            19,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O309",
+          "label": "Embarazo múltiple, no especificado",
+          "displayCode": "O30.9",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            19,
+            21,
+            24
+          ],
+          "indicatorCodes": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-03-1.0",
+            "01-04-2.0",
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-3",
+      "title": "Búsqueda de diagnóstico presuntivo de sífilis",
+      "entries": [
+        {
+          "code": "A50",
+          "label": "Sífilis congénita",
+          "displayCode": "A50",
+          "role": "Búsqueda de casos",
+          "roleId": "seleccion_de_casos",
+          "criteria": "No todos estos códigos significan sífilis confirmada. La interpretación, prueba treponémica y manejo de cada caso se detallan en la tabla de la p25.",
+          "pages": [
+            24
+          ],
+          "indicatorCodes": [
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "A51",
+          "label": "Sífilis precoz",
+          "displayCode": "A51",
+          "role": "Búsqueda de casos",
+          "roleId": "seleccion_de_casos",
+          "criteria": "No todos estos códigos significan sífilis confirmada. La interpretación, prueba treponémica y manejo de cada caso se detallan en la tabla de la p25.",
+          "pages": [
+            24
+          ],
+          "indicatorCodes": [
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "A52",
+          "label": "Sífilis tardía",
+          "displayCode": "A52",
+          "role": "Búsqueda de casos",
+          "roleId": "seleccion_de_casos",
+          "criteria": "No todos estos códigos significan sífilis confirmada. La interpretación, prueba treponémica y manejo de cada caso se detallan en la tabla de la p25.",
+          "pages": [
+            24
+          ],
+          "indicatorCodes": [
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "A53",
+          "label": "Otras sífilis y las no específicas",
+          "displayCode": "A53",
+          "role": "Búsqueda de casos",
+          "roleId": "seleccion_de_casos",
+          "criteria": "No todos estos códigos significan sífilis confirmada. La interpretación, prueba treponémica y manejo de cada caso se detallan en la tabla de la p25.",
+          "pages": [
+            24
+          ],
+          "indicatorCodes": [
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O981",
+          "label": "Sífilis que complica el embarazo, parto y puerperio",
+          "displayCode": "O98.1",
+          "role": "Búsqueda de casos",
+          "roleId": "seleccion_de_casos",
+          "criteria": "No todos estos códigos significan sífilis confirmada. La interpretación, prueba treponémica y manejo de cada caso se detallan en la tabla de la p25.",
+          "pages": [
+            24
+          ],
+          "indicatorCodes": [
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "R762",
+          "label": "Falso positivo en la prueba serológica para sífilis",
+          "displayCode": "R76.2",
+          "role": "Búsqueda de casos",
+          "roleId": "seleccion_de_casos",
+          "criteria": "No todos estos códigos significan sífilis confirmada. La interpretación, prueba treponémica y manejo de cada caso se detallan en la tabla de la p25.",
+          "pages": [
+            24
+          ],
+          "indicatorCodes": [
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z369",
+          "label": "Pesquisa prenatal, sin otra especificación",
+          "displayCode": "Z36.9",
+          "role": "Búsqueda de casos",
+          "roleId": "seleccion_de_casos",
+          "criteria": "No todos estos códigos significan sífilis confirmada. La interpretación, prueba treponémica y manejo de cada caso se detallan en la tabla de la p25.",
+          "pages": [
+            24
+          ],
+          "indicatorCodes": [
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z224",
+          "label": "Portador de agentes de enfermedades infecciosas con un modo de transmisión predominantemente sexual",
+          "displayCode": "Z22.4",
+          "role": "Búsqueda de casos",
+          "roleId": "seleccion_de_casos",
+          "criteria": "No todos estos códigos significan sífilis confirmada. La interpretación, prueba treponémica y manejo de cada caso se detallan en la tabla de la p25.",
+          "pages": [
+            24
+          ],
+          "indicatorCodes": [
+            "01-05-2.0"
+          ],
+          "indicatorIds": [
+            "01-05-2.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-4",
+      "title": "Educación en salud oral",
+      "entries": [
+        {
+          "code": "Z719",
+          "label": "Consejos en salud",
+          "displayCode": "Z71.9",
+          "role": "Registro de intervención",
+          "roleId": "registro_de_intervencion",
+          "criteria": "La ficha denomina el código “Consejos en salud”.",
+          "pages": [
+            38
+          ],
+          "indicatorCodes": [
+            "02-03-1.0",
+            "02-04-1.0",
+            "02-05-1.0",
+            "02-06-1.0"
+          ],
+          "indicatorIds": [
+            "02-03-1.0",
+            "02-04-1.0",
+            "02-05-1.0",
+            "02-06-1.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-5",
+      "title": "Diagnóstico de anemia por deficiencia de hierro",
+      "entries": [
+        {
+          "code": "D50",
+          "label": "Anemia por deficiencia de hierro",
+          "displayCode": "D50",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Diagnóstico de anemia por deficiencia de hierro",
+          "pages": [
+            48,
+            50
+          ],
+          "indicatorCodes": [
+            "03-02-1.0",
+            "03-03-2.0"
+          ],
+          "indicatorIds": [
+            "03-02-1.0",
+            "03-03-2.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-6",
+      "title": "Dislipidemia diagnosticada en el periodo anterior",
+      "entries": [
+        {
+          "code": "E78",
+          "label": "Trastorno del metabolismo de las lipoproteínas y otras lipidemias",
+          "displayCode": "E78",
+          "role": "Exclusión",
+          "roleId": "exclusion",
+          "criteria": "E78 es exclusión, no diagnóstico obligatorio para ingresar al tamizaje. La obesidad se identifica con peso/talla y puntaje Z, según edad, no exigiendo E66 en esta ficha.",
+          "pages": [
+            66
+          ],
+          "indicatorCodes": [
+            "03-05-1.0"
+          ],
+          "indicatorIds": [
+            "03-05-1.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-7",
+      "title": "Diagnóstico de obesidad",
+      "entries": [
+        {
+          "code": "E660",
+          "label": "Obesidad debida a exceso de calorías",
+          "displayCode": "E66.0",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Los códigos no son grados de obesidad. La población se determina además por edad e IMC ≥ 30,0 kg/m².",
+          "pages": [
+            80,
+            82
+          ],
+          "indicatorCodes": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "indicatorIds": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "E668",
+          "label": "Otros tipos de obesidad",
+          "displayCode": "E66.8",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Los códigos no son grados de obesidad. La población se determina además por edad e IMC ≥ 30,0 kg/m².",
+          "pages": [
+            80,
+            82
+          ],
+          "indicatorCodes": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "indicatorIds": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "E669",
+          "label": "Obesidad, no especificado",
+          "displayCode": "E66.9",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Los códigos no son grados de obesidad. La población se determina además por edad e IMC ≥ 30,0 kg/m².",
+          "pages": [
+            80,
+            82
+          ],
+          "indicatorCodes": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "indicatorIds": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-8",
+      "title": "Embarazadas",
+      "entries": [
+        {
+          "code": "Z321",
+          "label": "Embarazo confirmado",
+          "displayCode": "Z32.1",
+          "role": "Exclusión",
+          "roleId": "exclusion",
+          "criteria": "Embarazadas",
+          "pages": [
+            81,
+            83
+          ],
+          "indicatorCodes": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "indicatorIds": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z33",
+          "label": "Estado de embarazo incidental",
+          "displayCode": "Z33",
+          "role": "Exclusión",
+          "roleId": "exclusion",
+          "criteria": "Embarazadas",
+          "pages": [
+            81,
+            83
+          ],
+          "indicatorCodes": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "indicatorIds": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z34",
+          "label": "Supervisión de embarazo normal",
+          "displayCode": "Z34",
+          "role": "Exclusión",
+          "roleId": "exclusion",
+          "criteria": "Embarazadas",
+          "pages": [
+            81,
+            83
+          ],
+          "indicatorCodes": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "indicatorIds": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z35",
+          "label": "Supervisión de embarazo de alto riesgo",
+          "displayCode": "Z35",
+          "role": "Exclusión",
+          "roleId": "exclusion",
+          "criteria": "Embarazadas",
+          "pages": [
+            81,
+            83
+          ],
+          "indicatorCodes": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "indicatorIds": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z640",
+          "label": "Problemas relacionados con embarazo no deseado",
+          "displayCode": "Z64.0",
+          "role": "Exclusión",
+          "roleId": "exclusion",
+          "criteria": "Embarazadas",
+          "pages": [
+            81,
+            83
+          ],
+          "indicatorCodes": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "indicatorIds": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O300",
+          "label": "Embarazo doble",
+          "displayCode": "O30.0",
+          "role": "Exclusión",
+          "roleId": "exclusion",
+          "criteria": "Embarazadas",
+          "pages": [
+            81,
+            83
+          ],
+          "indicatorCodes": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "indicatorIds": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O308",
+          "label": "Otros embarazos múltiples",
+          "displayCode": "O30.8",
+          "role": "Exclusión",
+          "roleId": "exclusion",
+          "criteria": "Embarazadas",
+          "pages": [
+            81,
+            83
+          ],
+          "indicatorCodes": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "indicatorIds": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O309",
+          "label": "Embarazo múltiple, no especificado",
+          "displayCode": "O30.9",
+          "role": "Exclusión",
+          "roleId": "exclusion",
+          "criteria": "Embarazadas",
+          "pages": [
+            81,
+            83
+          ],
+          "indicatorCodes": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "indicatorIds": [
+            "05-01-1.0",
+            "05-02-1.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-9",
+      "title": "Consulta grupal de obesidad grados I y II",
+      "entries": [
+        {
+          "code": "E660",
+          "label": "Obesidad debida a exceso de calorías",
+          "displayCode": "E66.0",
+          "role": "Registro de intervención",
+          "roleId": "registro_de_intervencion",
+          "criteria": "Los códigos E660/E668/E669 no equivalen individualmente a grados I, II, III.",
+          "pages": [
+            84
+          ],
+          "indicatorCodes": [
+            "05-03-1.0"
+          ],
+          "indicatorIds": [
+            "05-03-1.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "E668",
+          "label": "Otros tipos de obesidad",
+          "displayCode": "E66.8",
+          "role": "Registro de intervención",
+          "roleId": "registro_de_intervencion",
+          "criteria": "Los códigos E660/E668/E669 no equivalen individualmente a grados I, II, III.",
+          "pages": [
+            84
+          ],
+          "indicatorCodes": [
+            "05-03-1.0"
+          ],
+          "indicatorIds": [
+            "05-03-1.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "E669",
+          "label": "Obesidad, no especificado",
+          "displayCode": "E66.9",
+          "role": "Registro de intervención",
+          "roleId": "registro_de_intervencion",
+          "criteria": "Los códigos E660/E668/E669 no equivalen individualmente a grados I, II, III.",
+          "pages": [
+            84
+          ],
+          "indicatorCodes": [
+            "05-03-1.0"
+          ],
+          "indicatorIds": [
+            "05-03-1.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-10",
+      "title": "Programa PINEC para obesidad grado III y otro factor de riesgo",
+      "entries": [
+        {
+          "code": "E90X",
+          "label": "Trastornos nutricionales y metabólicos en enfermedades clasificadas en otra parte",
+          "displayCode": "E90X",
+          "role": "Registro de intervención",
+          "roleId": "registro_de_intervencion",
+          "criteria": "Son los códigos que enumera la ficha en este contexto, no una afirmación de equivalencia entre estos diagnósticos.",
+          "pages": [
+            84
+          ],
+          "indicatorCodes": [
+            "05-03-1.0"
+          ],
+          "indicatorIds": [
+            "05-03-1.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z728",
+          "label": "Otros problemas relacionados con el estilo de vida",
+          "displayCode": "Z72.8",
+          "role": "Registro de intervención",
+          "roleId": "registro_de_intervencion",
+          "criteria": "Son los códigos que enumera la ficha en este contexto, no una afirmación de equivalencia entre estos diagnósticos.",
+          "pages": [
+            84
+          ],
+          "indicatorCodes": [
+            "05-03-1.0"
+          ],
+          "indicatorIds": [
+            "05-03-1.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "E631",
+          "label": "Desequilibrio de los constituyentes de la dieta",
+          "displayCode": "E63.1",
+          "role": "Registro de intervención",
+          "roleId": "registro_de_intervencion",
+          "criteria": "Son los códigos que enumera la ficha en este contexto, no una afirmación de equivalencia entre estos diagnósticos.",
+          "pages": [
+            84
+          ],
+          "indicatorCodes": [
+            "05-03-1.0"
+          ],
+          "indicatorIds": [
+            "05-03-1.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-11",
+      "title": "Otro factor de riesgo cardiovascular",
+      "entries": [
+        {
+          "code": "E11",
+          "label": "Diabetes mellitus no insulinodependiente",
+          "displayCode": "E11",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "La ficha los describe aquí como DM2, hipertensión esencial(primaria), dislipidemia.",
+          "pages": [
+            84
+          ],
+          "indicatorCodes": [
+            "05-03-1.0"
+          ],
+          "indicatorIds": [
+            "05-03-1.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "I10X",
+          "label": "Hipertensión esencial (Primaria)",
+          "displayCode": "I10X",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "La ficha los describe aquí como DM2, hipertensión esencial(primaria), dislipidemia.",
+          "pages": [
+            84
+          ],
+          "indicatorCodes": [
+            "05-03-1.0"
+          ],
+          "indicatorIds": [
+            "05-03-1.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "E78",
+          "label": "Trastorno del metabolismo de las lipoproteínas y otras lipidemias",
+          "displayCode": "E78",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "La ficha los describe aquí como DM2, hipertensión esencial(primaria), dislipidemia.",
+          "pages": [
+            84
+          ],
+          "indicatorCodes": [
+            "05-03-1.0"
+          ],
+          "indicatorIds": [
+            "05-03-1.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-12",
+      "title": "Atención multidisciplinaria en consulta modalidad grupal",
+      "entries": [
+        {
+          "code": "Z728",
+          "label": "Otros problemas relacionados con el estilo de vida",
+          "displayCode": "Z72.8",
+          "role": "Selección y registro",
+          "roleId": "seleccion_y_registro",
+          "criteria": "AMC comprende cinco atenciones. El código no basta por sí solo para cumplir el indicador.",
+          "pages": [
+            90,
+            92
+          ],
+          "indicatorCodes": [
+            "05-04-1.0",
+            "05-05-1.0"
+          ],
+          "indicatorIds": [
+            "05-04-1.0",
+            "05-05-1.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-13",
+      "title": "Registro al completar el programa PINEC",
+      "entries": [
+        {
+          "code": "Z863",
+          "label": "Código de registro al completar el programa PINEC con cinco atenciones (uso descrito por la fuente, no etiqueta diagnóstica)",
+          "displayCode": "Z86.3",
+          "role": "Registro de cierre",
+          "roleId": "registro_de_cierre",
+          "criteria": "Según oficio ARSDT-E-NUT-0111-2022 citado en los comentarios: se registra al completar cinco atenciones.",
+          "pages": [
+            91,
+            93
+          ],
+          "indicatorCodes": [
+            "05-04-1.0",
+            "05-05-1.0"
+          ],
+          "indicatorIds": [
+            "05-04-1.0",
+            "05-05-1.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-14",
+      "title": "Diagnóstico para síndrome metabólico del indicador complementario",
+      "entries": [
+        {
+          "code": "E889",
+          "label": "Trastorno metabólico, no especificado",
+          "displayCode": "E88.9",
+          "role": "Referencia a complementario",
+          "roleId": "indicador_complementario_relacionado",
+          "criteria": "El código aparece en el indicador complementario de registro diagnóstico, no como sustituto del requisito de AMC.",
+          "pages": [
+            91,
+            93,
+            95
+          ],
+          "indicatorCodes": [
+            "05-04-1.0",
+            "05-05-1.0"
+          ],
+          "indicatorIds": [
+            "05-04-1.0",
+            "05-05-1.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-15",
+      "title": "Diagnóstico de diabetes mellitus tipo 2",
+      "entries": [
+        {
+          "code": "E11",
+          "label": "Diabetes mellitus no insulinodependiente",
+          "displayCode": "E11",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "La etiqueta literal de la ficha es Diabetes mellitus no insulinodependiente. No enumera E118 ni lo define como todas las complicaciones.",
+          "pages": [
+            99
+          ],
+          "indicatorCodes": [
+            "06-01-1.0"
+          ],
+          "indicatorIds": [
+            "06-01-1.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-16",
+      "title": "Referencia de población: diabetes mellitus tipo 2",
+      "entries": [
+        {
+          "code": "E11",
+          "label": "Diabetes mellitus no insulinodependiente",
+          "displayCode": "E11",
+          "role": "Referencia de población",
+          "roleId": "referencia_de_poblacion",
+          "criteria": "E11 figura explícitamente en la ficha de cobertura 06-01. Esta ficha describe población atendida con DM2, pero no repite un listado de subcódigos; no se añade E118 como regla independiente.",
+          "pages": [
+            99
+          ],
+          "indicatorCodes": [
+            "06-02-1.0",
+            "06-03-1.0",
+            "06-04-1.0"
+          ],
+          "indicatorIds": [
+            "06-02-1.0",
+            "06-03-1.0",
+            "06-04-1.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-17",
+      "title": "Atención por hipertensión arterial",
+      "entries": [
+        {
+          "code": "I10X",
+          "label": "Hipertensión esencial (Primaria)",
+          "displayCode": "I10X",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "La fuente escribe I10x. Se conserva la X institucional; no se interpreta como autorización para incluir I15.",
+          "pages": [
+            107,
+            108
+          ],
+          "indicatorCodes": [
+            "07-01-1.0",
+            "07-02-1.0"
+          ],
+          "indicatorIds": [
+            "07-01-1.0",
+            "07-02-1.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-18",
+      "title": "Código diagnóstico del tamizaje cérvico-uterino",
+      "entries": [
+        {
+          "code": "Z014",
+          "label": "Código diagnóstico para tamizaje cérvico-uterino (la ficha no desarrolla su nombre)",
+          "displayCode": "Z01.4",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "El procedimiento y el tipo de prueba también se verifican.09-01 excluye VPH. El código por sí solo no distingue PAP de VPH.",
+          "pages": [
+            117,
+            119
+          ],
+          "indicatorCodes": [
+            "09-01-2.0",
+            "09-02-2.0"
+          ],
+          "indicatorIds": [
+            "09-01-2.0",
+            "09-02-2.0"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z124",
+          "label": "Código diagnóstico para tamizaje cérvico-uterino (la ficha no desarrolla su nombre)",
+          "displayCode": "Z12.4",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "El procedimiento y el tipo de prueba también se verifican.09-01 excluye VPH. El código por sí solo no distingue PAP de VPH.",
+          "pages": [
+            117,
+            119
+          ],
+          "indicatorCodes": [
+            "09-01-2.0",
+            "09-02-2.0"
+          ],
+          "indicatorIds": [
+            "09-01-2.0",
+            "09-02-2.0"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-19",
+      "title": "Consultas de primera vez en el periodo posnatal",
+      "entries": [
+        {
+          "code": "Z390",
+          "label": "Atención y examen inmediatamente después del parto",
+          "displayCode": "Z39.0",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            29
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p29"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z391",
+          "label": "Atención y examen de madre en periodo de lactancia",
+          "displayCode": "Z39.1",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            29
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p29"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z392",
+          "label": "Seguimiento postparto de rutina",
+          "displayCode": "Z39.2",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            29
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p29"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z370",
+          "label": "Nacido vivo único",
+          "displayCode": "Z37.0",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            29
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p29"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z379",
+          "label": "Producto de parto no específico",
+          "displayCode": "Z37.9",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            29
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p29"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O800",
+          "label": "Parto único espontáneo presentación cefálica de vértice",
+          "displayCode": "O80.0",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            29
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p29"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O03",
+          "label": "Aborto espontáneo",
+          "displayCode": "O03",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            29
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p29"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O04",
+          "label": "Aborto médico",
+          "displayCode": "O04",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            29
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p29"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O05",
+          "label": "Otro aborto",
+          "displayCode": "O05",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            29
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p29"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O06",
+          "label": "Aborto no especificado",
+          "displayCode": "O06",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            29
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p29"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O021",
+          "label": "Aborto retenido",
+          "displayCode": "O02.1",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            29
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p29"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O60",
+          "label": "Parto prematuro",
+          "displayCode": "O60",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el periodo posnatal",
+          "pages": [
+            29
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p29"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-20",
+      "title": "Consultas de primera vez en el embarazo",
+      "entries": [
+        {
+          "code": "Z321",
+          "label": "Embarazo confirmado",
+          "displayCode": "Z32.1",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            30
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p30"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z33",
+          "label": "Estado de embarazo incidental",
+          "displayCode": "Z33",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            30
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p30"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z34",
+          "label": "Supervisión de embarazo normal",
+          "displayCode": "Z34",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            30
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p30"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z35",
+          "label": "Supervisión de embarazo de alto riesgo",
+          "displayCode": "Z35",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            30
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p30"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z640",
+          "label": "Problemas relacionados con embarazo no deseado",
+          "displayCode": "Z64.0",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            30
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p30"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O300",
+          "label": "Embarazo doble",
+          "displayCode": "O30.0",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            30
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p30"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O308",
+          "label": "Otros embarazos múltiples",
+          "displayCode": "O30.8",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            30
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p30"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "O309",
+          "label": "Embarazo múltiple, no especificado",
+          "displayCode": "O30.9",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consultas de primera vez en el embarazo",
+          "pages": [
+            30
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p30"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-21",
+      "title": "Ausencia o presencia de registro del diagnóstico",
+      "entries": [
+        {
+          "code": "D50",
+          "label": "Anemia por deficiencia de hierro",
+          "displayCode": "D50",
+          "role": "Verificación de registro",
+          "roleId": "verificacion_de_registro",
+          "criteria": "El resultado del indicador busca hemoglobina <11 g/dL sin diagnóstico D50. La sección Incluye, sin embargo, menciona consultas con D50; se conserva esta discrepancia para revisión y no se interpreta D50 como requisito universal de inclusión.",
+          "pages": [
+            52
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p52"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-22",
+      "title": "Código del indicador de evaluación al que remite",
+      "entries": [
+        {
+          "code": "D50",
+          "label": "Anemia por deficiencia de hierro",
+          "displayCode": "D50",
+          "role": "Referencia en otra ficha",
+          "roleId": "referencia_explicita",
+          "criteria": "La ficha complementaria remite a las consultas del indicador de evaluación; no repite el código en su texto.",
+          "pages": [
+            48,
+            50,
+            56,
+            58,
+            60
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p56",
+            "complementario-p58",
+            "complementario-p60"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-23",
+      "title": "Exclusión remitida al indicador 03-05-1.0",
+      "entries": [
+        {
+          "code": "E78",
+          "label": "Trastorno del metabolismo de las lipoproteínas y otras lipidemias",
+          "displayCode": "E78",
+          "role": "Exclusión por referencia",
+          "roleId": "exclusion_por_referencia",
+          "criteria": "Aplicable a la población del indicador 03-05: antecedente de dislipidemia en el periodo anterior. El indicador complementario remite a las exclusiones de 03-04/03-05.",
+          "pages": [
+            66
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p69",
+            "complementario-p70"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-24",
+      "title": "Atención multidisciplinaria en consulta modalidad grupal",
+      "entries": [
+        {
+          "code": "Z728",
+          "label": "Otros problemas relacionados con el estilo de vida",
+          "displayCode": "Z72.8",
+          "role": "Selección y registro",
+          "roleId": "seleccion_y_registro",
+          "criteria": "AMC comprende cinco atenciones. El código no basta por sí solo para cumplir el indicador.",
+          "pages": [
+            94
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p94"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-25",
+      "title": "Registro al completar el programa PINEC",
+      "entries": [
+        {
+          "code": "Z863",
+          "label": "Código de registro al completar el programa PINEC con cinco atenciones (uso descrito por la fuente, no etiqueta diagnóstica)",
+          "displayCode": "Z86.3",
+          "role": "Registro de cierre",
+          "roleId": "registro_de_cierre",
+          "criteria": "Según oficio ARSDT-E-NUT-0111-2022 citado en los comentarios: se registra al completar cinco atenciones.",
+          "pages": [
+            94
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p94"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-26",
+      "title": "Consulta modalidad grupal para atención multidisciplinaria",
+      "entries": [
+        {
+          "code": "Z728",
+          "label": "Otros problemas relacionados con el estilo de vida",
+          "displayCode": "Z72.8",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "Consulta modalidad grupal para atención multidisciplinaria",
+          "pages": [
+            95
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p95"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-27",
+      "title": "Diagnóstico para síndrome metabólico",
+      "entries": [
+        {
+          "code": "E889",
+          "label": "Trastorno metabólico, no especificado",
+          "displayCode": "E88.9",
+          "role": "Registro diagnóstico",
+          "roleId": "registro_de_diagnostico",
+          "criteria": "Nombre literal: Trastorno metabólico, no especificado. Se registra cuando el profesional verifica los criterios de SM de la normativa vigente.",
+          "pages": [
+            95
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p95"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-28",
+      "title": "Referencia de población: diabetes mellitus tipo 2",
+      "entries": [
+        {
+          "code": "E11",
+          "label": "Diabetes mellitus no insulinodependiente",
+          "displayCode": "E11",
+          "role": "Referencia de población",
+          "roleId": "referencia_de_poblacion",
+          "criteria": "E11 figura explícitamente en la ficha de cobertura 06-01. Esta ficha describe población atendida con DM2, pero no repite un listado de subcódigos; no se añade E118 como regla independiente.",
+          "pages": [
+            99
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p103",
+            "complementario-p104"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-29",
+      "title": "Atención por hipertensión arterial",
+      "entries": [
+        {
+          "code": "I10X",
+          "label": "Hipertensión esencial (Primaria)",
+          "displayCode": "I10X",
+          "role": "Selección de población",
+          "roleId": "seleccion",
+          "criteria": "La fuente escribe I10x. Se conserva la X institucional; no se interpreta como autorización para incluir I15.",
+          "pages": [
+            109,
+            110,
+            114
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p109",
+            "complementario-p110",
+            "complementario-p114"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-30",
+      "title": "Personas ya conocidas con HTA",
+      "entries": [
+        {
+          "code": "I10–I15",
+          "label": "Personas conocidas con hipertensión arterial (rango excluido del tamizaje de no conocidos hipertensos)",
+          "displayCode": "I10–I15",
+          "role": "Exclusión",
+          "roleId": "exclusion",
+          "criteria": "Se excluyen del tamizaje domiciliar de no conocidos hipertensos, según SIAC/SIES.",
+          "pages": [
+            113
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p113"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "grupo-31",
+      "title": "Población remitida a los indicadores de evaluación PAP/VPH",
+      "entries": [
+        {
+          "code": "Z014",
+          "label": "Código diagnóstico para tamizaje cérvico-uterino (la ficha no desarrolla su nombre)",
+          "displayCode": "Z01.4",
+          "role": "Referencia en otra ficha",
+          "roleId": "referencia_explicita",
+          "criteria": "Remite a la definición de población de los indicadores de evaluación.",
+          "pages": [
+            117,
+            119,
+            121
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p121"
+          ],
+          "sourceId": "base-2024"
+        },
+        {
+          "code": "Z124",
+          "label": "Código diagnóstico para tamizaje cérvico-uterino (la ficha no desarrolla su nombre)",
+          "displayCode": "Z12.4",
+          "role": "Referencia en otra ficha",
+          "roleId": "referencia_explicita",
+          "criteria": "Remite a la definición de población de los indicadores de evaluación.",
+          "pages": [
+            117,
+            119,
+            121
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [
+            "complementario-p121"
+          ],
+          "sourceId": "base-2024"
+        }
+      ]
+    },
+    {
+      "id": "referencia-clinica-1",
+      "title": "Diagnóstico clínico y notificación obligatoria de HTA",
+      "entries": [
+        {
+          "code": "I10",
+          "label": "Hipertensión esencial (primaria)",
+          "displayCode": "I10",
+          "role": "Referencia clínica y notificación",
+          "roleId": "referencia_clinica_y_notificacion",
+          "criteria": "Tabla 2: Boleta V01 bajo I10 (esencial) o I15 si secundaria. Esto no modifica automáticamente el criterio I10x de la ficha EPSS base.",
+          "pages": [
+            7
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [],
+          "sourceId": "hta-lineamiento-2025"
+        },
+        {
+          "code": "I15",
+          "label": "Hipertensión secundaria",
+          "displayCode": "I15",
+          "role": "Referencia clínica y notificación",
+          "roleId": "referencia_clinica_y_notificacion",
+          "criteria": "Tabla 2: Boleta V01 bajo I10 (esencial) o I15 si secundaria. Esto no modifica automáticamente el criterio I10x de la ficha EPSS base.",
+          "pages": [
+            7
+          ],
+          "indicatorCodes": [],
+          "indicatorIds": [],
+          "sourceId": "hta-lineamiento-2025"
+        }
+      ]
+    }
+  ],
+  "indicatorNotes": [
+    {
+      "indicatorId": "01-01-1.0",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        16
+      ]
+    },
+    {
+      "indicatorId": "01-02-2.0",
+      "status": "codigos_documentados",
+      "notes": [
+        "El listado de la ficha es específico: O800, O60 y los restantes códigos enumerados. No consta un rango inclusivo O80–O84."
+      ],
+      "sourcePages": [
+        17,
+        18
+      ]
+    },
+    {
+      "indicatorId": "01-03-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        19
+      ]
+    },
+    {
+      "indicatorId": "01-04-2.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "indicatorId": "01-05-2.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "indicatorId": "02-01-1.0",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        37
+      ]
+    },
+    {
+      "indicatorId": "02-02-1.0",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        37
+      ]
+    },
+    {
+      "indicatorId": "02-03-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        38,
+        39
+      ]
+    },
+    {
+      "indicatorId": "02-04-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        38,
+        39
+      ]
+    },
+    {
+      "indicatorId": "02-05-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        38,
+        39
+      ]
+    },
+    {
+      "indicatorId": "02-06-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        38,
+        39
+      ]
+    },
+    {
+      "indicatorId": "03-01-2.0",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        46,
+        47
+      ]
+    },
+    {
+      "indicatorId": "03-02-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        48,
+        49
+      ]
+    },
+    {
+      "indicatorId": "03-03-2.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        50,
+        51
+      ]
+    },
+    {
+      "indicatorId": "03-04-1.0",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        64,
+        65
+      ]
+    },
+    {
+      "indicatorId": "03-05-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        66,
+        67
+      ]
+    },
+    {
+      "indicatorId": "04-01-1.0",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        73
+      ]
+    },
+    {
+      "indicatorId": "05-01-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        80,
+        81
+      ]
+    },
+    {
+      "indicatorId": "05-02-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        82,
+        83
+      ]
+    },
+    {
+      "indicatorId": "05-03-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        84,
+        85
+      ]
+    },
+    {
+      "indicatorId": "05-04-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        90,
+        91
+      ]
+    },
+    {
+      "indicatorId": "05-05-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        92,
+        93
+      ]
+    },
+    {
+      "indicatorId": "06-01-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        99
+      ]
+    },
+    {
+      "indicatorId": "06-02-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        100
+      ]
+    },
+    {
+      "indicatorId": "06-03-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        101
+      ]
+    },
+    {
+      "indicatorId": "06-04-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        102
+      ]
+    },
+    {
+      "indicatorId": "07-01-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        107
+      ]
+    },
+    {
+      "indicatorId": "07-02-1.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        108
+      ]
+    },
+    {
+      "indicatorId": "09-01-2.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        117,
+        118
+      ]
+    },
+    {
+      "indicatorId": "09-02-2.0",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        119,
+        120
+      ]
+    },
+    {
+      "indicatorId": "09-03-2.0",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        125,
+        126
+      ]
+    },
+    {
+      "indicatorId": "11-01-1.0",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        132,
+        133
+      ]
+    },
+    {
+      "indicatorId": "11-02-2.0",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        134,
+        135
+      ]
+    },
+    {
+      "indicatorId": "complementario-p26",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        26
+      ]
+    },
+    {
+      "indicatorId": "complementario-p27",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        27
+      ]
+    },
+    {
+      "indicatorId": "complementario-p28",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        28
+      ]
+    },
+    {
+      "indicatorId": "complementario-p29",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        29
+      ]
+    },
+    {
+      "indicatorId": "complementario-p30",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        30
+      ]
+    },
+    {
+      "indicatorId": "complementario-p31",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos.",
+        "Remite a las consultas del indicador de evaluación, pero la referencia impresa dice 02-04-2.0. Corresponde revisar esa referencia con DCSS; no se convierte el error aparente en un nuevo requisito."
+      ],
+      "sourcePages": [
+        31,
+        32
+      ]
+    },
+    {
+      "indicatorId": "complementario-p40",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        40
+      ]
+    },
+    {
+      "indicatorId": "complementario-p41",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        41
+      ]
+    },
+    {
+      "indicatorId": "complementario-p42",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        42
+      ]
+    },
+    {
+      "indicatorId": "complementario-p52",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        52,
+        53
+      ]
+    },
+    {
+      "indicatorId": "complementario-p54",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        54,
+        55
+      ]
+    },
+    {
+      "indicatorId": "complementario-p56",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        56
+      ]
+    },
+    {
+      "indicatorId": "complementario-p57",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos.",
+        "El indicador padre declarado es anemia resuelta de 6 a <24 meses, pero las consultas remiten a 03-01-1.0 (código que no coincide con el de la ficha vigente). No se asigna un código adicional por inferencia."
+      ],
+      "sourcePages": [
+        57
+      ]
+    },
+    {
+      "indicatorId": "complementario-p58",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        58,
+        59
+      ]
+    },
+    {
+      "indicatorId": "complementario-p60",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        60,
+        61
+      ]
+    },
+    {
+      "indicatorId": "complementario-p68",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        68
+      ]
+    },
+    {
+      "indicatorId": "complementario-p69",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        69
+      ]
+    },
+    {
+      "indicatorId": "complementario-p70",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        70
+      ]
+    },
+    {
+      "indicatorId": "complementario-p74",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        74
+      ]
+    },
+    {
+      "indicatorId": "complementario-p75",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        75
+      ]
+    },
+    {
+      "indicatorId": "complementario-p94",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        94
+      ]
+    },
+    {
+      "indicatorId": "complementario-p95",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        95
+      ]
+    },
+    {
+      "indicatorId": "complementario-p103",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        103
+      ]
+    },
+    {
+      "indicatorId": "complementario-p104",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        104
+      ]
+    },
+    {
+      "indicatorId": "complementario-p109",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        109
+      ]
+    },
+    {
+      "indicatorId": "complementario-p110",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        110,
+        111
+      ]
+    },
+    {
+      "indicatorId": "complementario-p112",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        112
+      ]
+    },
+    {
+      "indicatorId": "complementario-p113",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        113
+      ]
+    },
+    {
+      "indicatorId": "complementario-p114",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        114
+      ]
+    },
+    {
+      "indicatorId": "complementario-p121",
+      "status": "codigos_documentados",
+      "notes": [],
+      "sourcePages": [
+        121
+      ]
+    },
+    {
+      "indicatorId": "complementario-p122",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos.",
+        "La ficha remite a los códigos de evaluación 14-01-2.0/14-02-2.0, que no coinciden con los códigos 09-01/09-02 de este diseño. No se corrige silenciosamente ni se crea un listado diagnóstico nuevo."
+      ],
+      "sourcePages": [
+        122
+      ]
+    },
+    {
+      "indicatorId": "complementario-p127",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        127
+      ]
+    },
+    {
+      "indicatorId": "complementario-p136",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        136
+      ]
+    },
+    {
+      "indicatorId": "complementario-p137",
+      "status": "sin_codigo_explicito_en_ficha",
+      "notes": [
+        "La ficha consultada no enumera un código CIE-10 específico. Esto no significa que el indicador no se calcule o que una consulta no cuente; aplicar sus criterios de edad, énfasis, procedimiento, resultado o fuente de datos."
+      ],
+      "sourcePages": [
+        137,
+        138,
+        139
+      ]
+    }
+  ],
+  "verificationNotes": [
+    "No se aplica la regla universal “sin código no entra en el cálculo”: múltiples fichas seleccionan por edad, énfasis, procedimiento o datos de laboratorio.",
+    "No están documentados como requisito de estas fichas los códigos Z001/Z003. Su ausencia en el listado no prueba que una consulta no cuente en ningún indicador.",
+    "No se hallaron V89.* en ninguno de los tres PDF oficiales disponibles. No incorporarlos como CIE-10 confirmado sin el documento institucional específico.",
+    "E118 no está explicitado ni definido en la ficha base de DM2. No atribuirle “con complicaciones” sin fuente de codificación.",
+    "O800 no se amplía a O80–O84; la lista posnatal sí incluye O60 y los abortos enumerados.",
+    "El informe 2025(p. 62 impresa / 64 física) alerta sobre uso de D64.9 en vez de D50 para anemia por deficiencia de hierro. No tratar D64.9 como sustituto validado de D50.",
+    "El informe 2025(p. 77 impresa / 79 física) usa E66.0/E66.8/E66.9 y E78 para análisis de seguimiento de niñez con perfiles de alto riesgo; eso no cambia el criterio antropométrico de inclusión del tamizaje03-05.",
+    "Las grafías sin punto (E660,Z728,I10X) se conservan como aparecen en la fuente. Las grafías con punto son solo ayuda de lectura y búsqueda, no nuevos subcódigos."
+  ]
+}

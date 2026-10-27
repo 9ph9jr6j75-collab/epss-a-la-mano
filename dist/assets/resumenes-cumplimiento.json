@@ -1,0 +1,1088 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-27",
+  "scopeNote": "Resúmenes operativos de los 33 indicadores principales del diseño de noviembre de 2024, con notas posteriores documentadas. No acreditan haber reunido todas las modificaciones posteriores. Las condiciones decisivas se mantienen visibles; el texto completo y los documentos originales resuelven el contexto.",
+  "items": [
+    {
+      "code": "01-01-1.0",
+      "population": "Menores de cero a 364 días, con fecha de nacimiento del periodo.",
+      "requiredActions": [
+        "Brindar la primera atención de consulta externa dentro de los primeros siete días de vida."
+      ],
+      "recording": [
+        "Registrar la consulta de primera vez y la fecha de nacimiento correcta en EDUS. La ficha lee medicina general, enfermería, ginecología y medicina familiar."
+      ],
+      "timing": [
+        "Primeros siete días de vida."
+      ],
+      "pitfalls": [
+        "Una consulta posterior a ese plazo no cumple el criterio de atención temprana. La cobertura se calcula contra los nacimientos estimados del periodo, no solo contra menores que consultaron."
+      ],
+      "successCriterion": "El menor atendido cumple el criterio de oportunidad si su primera atención ocurre en los primeros siete días.",
+      "sourcePages": [
+        16
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "La definición incluye consulta de primera vez en el año; la fuente declara consultas de primera vez en la vida por edad. Se conservan ambos términos en la ficha completa para no resolver por inferencia la diferencia."
+      ],
+      "calculation": "Menores atendidos en los primeros siete días de vida ÷ nacimientos del periodo × 100.",
+      "essentialNotes": [
+        "La definición menciona primera consulta del año y la fuente de datos, primera consulta en la vida. La ficha conserva ambas expresiones; verifique el reporte institucional aplicable."
+      ]
+    },
+    {
+      "code": "01-02-2.0",
+      "population": "Mujeres en los 0 a 42 días posteriores al parto o aborto, con fecha de parto válida del periodo.",
+      "requiredActions": [
+        "Brindar la atención posnatal temprana en consulta externa."
+      ],
+      "recording": [
+        "Registrar el diagnóstico posnatal que corresponda y la fecha de parto en EDUS, apartado Posparto, ítem Captación temprana."
+      ],
+      "timing": [
+        "Atención temprana: primeros siete días del parto. Fecha válida: diferencia entre primera consulta posnatal y fecha de parto de 0 a 42 días."
+      ],
+      "pitfalls": [
+        "Una fecha escrita únicamente en el texto de la nota no sustituye el campo que lee la ficha. Estar dentro de 42 días permite clasificar la atención como posnatal, pero no como temprana si excede siete días."
+      ],
+      "successCriterion": "El caso aporta al numerador cuando recibe atención en los primeros siete días y tiene fecha válida.",
+      "sourcePages": [
+        17,
+        18
+      ],
+      "updateIds": [],
+      "calculation": "Mujeres con atención posnatal en los primeros siete días del parto ÷ pospartos estimados del periodo (nacimientos × 1,1) × 100.",
+      "coverageNotes": [
+        "Validación del campo fecha de parto: primera consulta posnatal menos fecha registrada entre 0 y 42 días. La definición abarca parto o aborto. Los diagnósticos admitidos se detallan en el módulo CIE-10."
+      ],
+      "essentialNotes": [
+        "Validación del campo fecha de parto: primera consulta posnatal menos fecha registrada entre 0 y 42 días. La definición abarca parto o aborto. Los diagnósticos admitidos se detallan en el módulo CIE-10."
+      ]
+    },
+    {
+      "code": "01-03-1.0",
+      "population": "Embarazadas con FPP válida que corresponde al periodo, aunque iniciaran el control el año anterior.",
+      "requiredActions": [
+        "Realizar el primer control en las primeras 11 semanas de gestación."
+      ],
+      "recording": [
+        "Registrar el diagnóstico de embarazo y la FUR en EDUS, Control prenatal, Datos embarazo. Las consultas admitidas son de medicina general, enfermería, ginecología y medicina familiar."
+      ],
+      "timing": [
+        "Primer control en las primeras 11 semanas. La FUR es válida si dista entre una y 42 semanas de la primera consulta. La FPP calculada por regla de Naegele (FUR + siete días − tres meses) debe pertenecer al periodo evaluado."
+      ],
+      "pitfalls": [
+        "No basta con tener una consulta prenatal: importan la oportunidad del primer control y la validez del campo FUR."
+      ],
+      "successCriterion": "Primer control en las primeras 11 semanas y fechas válidas.",
+      "sourcePages": [
+        19
+      ],
+      "updateIds": [],
+      "calculation": "Embarazadas con atención en las primeras 11 semanas ÷ embarazadas estimadas del periodo (nacimientos × 1,1) × 100.",
+      "coverageNotes": [
+        "No se cambia el texto «primeras 11 semanas» por <12 o ≤11 sin precisar días, porque la fuente no detalla esa equivalencia."
+      ],
+      "essentialNotes": []
+    },
+    {
+      "code": "01-04-2.0",
+      "population": "Embarazadas desde la concepción hasta 42 semanas, con consulta de primera vez en el embarazo en medicina general, enfermería, ginecología o medicina familiar, y FUR válida para el periodo.",
+      "requiredActions": [
+        "Realizar primer control en las primeras 11 semanas y tomar PA en ese control.",
+        "Realizar detección de VDRL y VIH en las primeras 19 semanas.",
+        "Realizar detección de DM pregestacional mediante glicemia en ayunas en las primeras 23 semanas y de DM gestacional con curva de tolerancia a la glucosa de 75 g entre 24 y 28 semanas.",
+        "Completar segundo control entre 12 y 20 semanas, tercero entre 21 y 28, cuarto entre 29 y 32 y quinto entre 33 y 40, con toma de PA en cada uno."
+      ],
+      "recording": [
+        "Registrar FUR en EDUS, Control prenatal, Datos embarazo. Es válida si la diferencia entre primera consulta y FUR está entre una y 42 semanas.",
+        "Registrar controles y PA. VDRL y VIH deben tener fecha y resultado en el énfasis correspondiente. Las pruebas realizadas en el periodo también se consultan en SILC/LabCore."
+      ],
+      "timing": [
+        "El paquete se acumula según edad gestacional al corte: 1–19 semanas exige primer control y PA; 20–28 agrega VDRL/VIH; 29–32 agrega ambos tamizajes de DM y controles segundo/tercero con PA; 33–40 agrega cuarto control con PA; ≥41 agrega quinto control con PA."
+      ],
+      "pitfalls": [
+        "Se exige todo el paquete aplicable, no solo una intervención. El diseño base deja la meta quinquenal en construcción."
+      ],
+      "successCriterion": "Paquete completo correspondiente a la edad gestacional al corte, con FUR válida y registros verificables.",
+      "sourcePages": [
+        20,
+        21,
+        22
+      ],
+      "updateIds": [],
+      "calculation": "Embarazadas con paquete completo aplicable según edad gestacional ÷ embarazadas con FUR válida del periodo × 100.",
+      "coverageNotes": [
+        "Tabla de acumulación por edad al corte verificada visualmente en página 20. La fuente no fija porcentaje meta: dice «en construcción». No se añade una meta numérica."
+      ],
+      "essentialNotes": []
+    },
+    {
+      "code": "01-05-2.0",
+      "population": "Embarazadas con FUR válida y VDRL positivo/reactivo, independientemente de la titulación.",
+      "requiredActions": [
+        "Clasificar el caso con VDRL, prueba treponémica, historia de tratamiento, síntomas, clasificación cronológica, titulación previa y tratamiento de pareja/contactos.",
+        "VDRL positivo sin prueba treponémica: 2,4 millones UI de penicilina benzatínica G IM, dosis única si hay síntomas o antecedentes recientes (<1 año); una dosis semanal por tres semanas si no hay síntomas o no recuerda la historia. En controles con aumento de títulos ≥4 veces se aplica el mismo criterio de síntomas recientes frente a ausencia de síntomas/historia.",
+        "VDRL y treponémica positivos: 2,4 millones UI IM, dosis única para sífilis primaria, secundaria o latente temprana; una dosis semanal por tres semanas para latente tardía, duración desconocida o cuando no se consigna clasificación cronológica. En controles con aumento de títulos ≥4 veces y reinfección, el esquema depende de la clasificación descrita.",
+        "VDRL positivo y treponémica negativa: no aplicar penicilina benzatínica G IM por ese falso positivo; seguimiento según norma.",
+        "Sin treponémica, el anexo admite no aplicación si había VDRL positivo antes del embarazo, título actual menor a cuatro veces el anterior y evidencia de pareja/contactos tratados; o si es control de embarazada detectada el año anterior con títulos estables, aumento menor a cuatro veces o disminución menor a cuatro veces; o referencia documentada por alergia o falta de condiciones para aplicación.",
+        "Con treponémica positiva, admite no aplicación si había sífilis tratada antes del embarazo, título actual menor a cuatro veces el anterior y evidencia de pareja/contactos tratados; o control de sífilis gestacional detectada el año anterior con títulos estables, aumento menor a cuatro veces o disminución menor a cuatro veces; o aumento mayor a cuatro veces en control de caso del año anterior con referencia documentada a II/III nivel por fracaso terapéutico/neurosífilis; o referencia por alergia o falta de condiciones para aplicación."
+      ],
+      "recording": [
+        "Registrar FUR válida en Control prenatal, Datos embarazo, y fecha/resultado VDRL en el énfasis. Documentar prueba treponémica, síntomas/antecedentes, títulos previos, clasificación cronológica, tratamiento de pareja/contactos, aplicaciones y fechas según el caso.",
+        "Si no se aplica penicilina, documentar la condición exacta admitida en el anexo; cuando corresponde, referencia a urgencias o II/III nivel. Códigos del anexo: Z369 casos 1/2; R762 falso positivo; O981 sífilis gestacional tratada según caso; Z224 caso 5."
+      ],
+      "timing": [
+        "Oportunidad: primeros 10 días hábiles desde el ingreso del reporte VDRL positivo. En el corte se incluyen pruebas realizadas al menos 10 días hábiles antes. La ficha admite FUR a una–42 semanas de la primera consulta."
+      ],
+      "pitfalls": [
+        "No aplicar automáticamente una dosis a todo VDRL positivo ni omitir la clasificación cronológica. Un código diagnóstico por sí solo no acredita oportunidad, esquema completo o una excepción válida.",
+        "El anexo usa ≥4 veces para reinfección y >4 veces en la excepción de referencia por fracaso terapéutico/neurosífilis; se conservan los comparadores tal como aparecen."
+      ],
+      "successCriterion": "Manejo oportuno y adecuado según el caso del anexo.",
+      "sourcePages": [
+        23,
+        24,
+        25
+      ],
+      "updateIds": [],
+      "calculation": "Embarazadas seropositivas con tratamiento oportuno y adecuado según el caso ÷ embarazadas seropositivas con FUR válida × 100.",
+      "coverageNotes": [
+        "Esquemas y cinco ramas del anexo verificados visualmente en página 25; se mantienen todas las condiciones decisivas para manejo y no aplicación. Los casos de no aplicación no se convierten en exclusiones del denominador: la ficha declara que no aplica exclusión."
+      ],
+      "essentialNotes": []
+    },
+    {
+      "code": "02-01-1.0",
+      "population": "Personas de 20 a 64 años.",
+      "requiredActions": [
+        "Brindar atención en salud oral de primera vez en odontología general durante el periodo. Incluye promoción y atención clínica preventiva o curativa."
+      ],
+      "recording": [
+        "Registrar la atención y su condición de primera vez en EDUS."
+      ],
+      "timing": [
+        "Medición anual; la atención debe corresponder al periodo."
+      ],
+      "pitfalls": [
+        "Esta cobertura cuenta personas con primera atención, no todas las consultas subsecuentes. El denominador es la población estimada del grupo de edad."
+      ],
+      "successCriterion": "Primera atención de salud oral en el periodo.",
+      "sourcePages": [
+        37
+      ],
+      "updateIds": [],
+      "calculation": "Personas del grupo con primera atención en odontología general ÷ población estimada del grupo de edad × 100.",
+      "coverageNotes": [],
+      "essentialNotes": []
+    },
+    {
+      "code": "02-02-1.0",
+      "population": "Personas de 65 años y más.",
+      "requiredActions": [
+        "Brindar atención en salud oral de primera vez en odontología general durante el periodo. Incluye promoción y atención clínica preventiva o curativa."
+      ],
+      "recording": [
+        "Registrar la atención y su condición de primera vez en EDUS."
+      ],
+      "timing": [
+        "Medición anual; la atención debe corresponder al periodo."
+      ],
+      "pitfalls": [
+        "Esta cobertura cuenta personas con primera atención, no todas las consultas subsecuentes. El denominador es la población estimada del grupo de edad."
+      ],
+      "successCriterion": "Primera atención de salud oral en el periodo.",
+      "sourcePages": [
+        37
+      ],
+      "updateIds": [],
+      "calculation": "Personas del grupo con primera atención en odontología general ÷ población estimada del grupo de edad × 100.",
+      "coverageNotes": [],
+      "essentialNotes": []
+    },
+    {
+      "code": "02-03-1.0",
+      "population": "Atenciones de primera vez y subsecuentes en odontología general a personas de 0 a 9 años.",
+      "requiredActions": [
+        "Brindar educación en salud oral en la atención: promoción, prevención, fisioterapia oral, autocuidado, alimentación u otros contenidos pertinentes."
+      ],
+      "recording": [
+        "Registrar la educación brindada con el código CIE-10 Z719, «Consejos en salud», junto con la atención en EDUS."
+      ],
+      "timing": [
+        "Se consideran las atenciones realizadas en el periodo; medición anual."
+      ],
+      "pitfalls": [
+        "Este indicador cuenta atenciones con educación, no solo personas ni únicamente primeras consultas."
+      ],
+      "successCriterion": "La atención aporta al numerador cuando incluye educación registrada.",
+      "sourcePages": [
+        38,
+        39
+      ],
+      "updateIds": [],
+      "calculation": "Atenciones del grupo de edad con educación en salud oral ÷ total de atenciones de odontología general del mismo grupo × 100.",
+      "coverageNotes": [],
+      "essentialNotes": []
+    },
+    {
+      "code": "02-04-1.0",
+      "population": "Atenciones de primera vez y subsecuentes en odontología general a personas de 10 a 19 años.",
+      "requiredActions": [
+        "Brindar educación en salud oral en la atención: promoción, prevención, fisioterapia oral, autocuidado, alimentación u otros contenidos pertinentes."
+      ],
+      "recording": [
+        "Registrar la educación brindada con el código CIE-10 Z719, «Consejos en salud», junto con la atención en EDUS."
+      ],
+      "timing": [
+        "Se consideran las atenciones realizadas en el periodo; medición anual."
+      ],
+      "pitfalls": [
+        "Este indicador cuenta atenciones con educación, no solo personas ni únicamente primeras consultas."
+      ],
+      "successCriterion": "La atención aporta al numerador cuando incluye educación registrada.",
+      "sourcePages": [
+        38,
+        39
+      ],
+      "updateIds": [],
+      "calculation": "Atenciones del grupo de edad con educación en salud oral ÷ total de atenciones de odontología general del mismo grupo × 100.",
+      "coverageNotes": [],
+      "essentialNotes": []
+    },
+    {
+      "code": "02-05-1.0",
+      "population": "Atenciones de primera vez y subsecuentes en odontología general a personas de 20 a 64 años.",
+      "requiredActions": [
+        "Brindar educación en salud oral en la atención: promoción, prevención, fisioterapia oral, autocuidado, alimentación u otros contenidos pertinentes."
+      ],
+      "recording": [
+        "Registrar la educación brindada con el código CIE-10 Z719, «Consejos en salud», junto con la atención en EDUS."
+      ],
+      "timing": [
+        "Se consideran las atenciones realizadas en el periodo; medición anual."
+      ],
+      "pitfalls": [
+        "Este indicador cuenta atenciones con educación, no solo personas ni únicamente primeras consultas."
+      ],
+      "successCriterion": "La atención aporta al numerador cuando incluye educación registrada.",
+      "sourcePages": [
+        38,
+        39
+      ],
+      "updateIds": [],
+      "calculation": "Atenciones del grupo de edad con educación en salud oral ÷ total de atenciones de odontología general del mismo grupo × 100.",
+      "coverageNotes": [],
+      "essentialNotes": []
+    },
+    {
+      "code": "02-06-1.0",
+      "population": "Atenciones de primera vez y subsecuentes en odontología general a personas de 65 años y más.",
+      "requiredActions": [
+        "Brindar educación en salud oral en la atención: promoción, prevención, fisioterapia oral, autocuidado, alimentación u otros contenidos pertinentes."
+      ],
+      "recording": [
+        "Registrar la educación brindada con el código CIE-10 Z719, «Consejos en salud», junto con la atención en EDUS."
+      ],
+      "timing": [
+        "Se consideran las atenciones realizadas en el periodo; medición anual."
+      ],
+      "pitfalls": [
+        "Este indicador cuenta atenciones con educación, no solo personas ni únicamente primeras consultas."
+      ],
+      "successCriterion": "La atención aporta al numerador cuando incluye educación registrada.",
+      "sourcePages": [
+        38,
+        39
+      ],
+      "updateIds": [],
+      "calculation": "Atenciones del grupo de edad con educación en salud oral ÷ total de atenciones de odontología general del mismo grupo × 100.",
+      "coverageNotes": [],
+      "essentialNotes": []
+    },
+    {
+      "code": "03-01-2.0",
+      "population": "Menores de seis a menos de 10 meses que consultan por primera vez en el año.",
+      "requiredActions": [
+        "Realizar hemoglobina para tamizaje en el rango oportuno."
+      ],
+      "recording": [
+        "Consignar resultado y fecha de toma de la muestra en el énfasis de niño sano o sistema de laboratorio."
+      ],
+      "timing": [
+        "Muestra entre cinco meses 21 días y nueve meses 29 días de edad."
+      ],
+      "pitfalls": [
+        "No basta solicitar el examen: se requiere resultado y fecha de muestra. Se excluyen menores ya tamizados oportunamente el año anterior."
+      ],
+      "successCriterion": "Hemoglobina realizada dentro del rango de edad oportuno. El resultado no necesita ser normal para cumplir el tamizaje.",
+      "sourcePages": [
+        46,
+        47
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "Verificados rango de consulta, rango de muestra, resultado/fecha, fuente y exclusión de tamizados año previo."
+      ],
+      "calculation": "Menores con tamizaje oportuno en el período ÷ menores de seis a menos de 10 meses atendidos por primera vez en el período × 100.",
+      "essentialNotes": []
+    },
+    {
+      "code": "03-02-1.0",
+      "population": "Menores de seis a menos de 24 meses con diagnóstico de anemia por deficiencia de hierro (D50).",
+      "requiredActions": [
+        "Dar seguimiento a la anemia y realizar hemograma de control oportuno.",
+        "Para contar como anemia resuelta, el control debe mostrar Hb >11 g/dL."
+      ],
+      "recording": [
+        "Registrar D50 en consulta externa. Conservar resultado de hemoglobina y fecha de toma de la muestra en niño sano o laboratorio.",
+        "Para los controles, la fuente de laboratorio contempla muestras entre cinco meses 21 días y menos de 28 meses."
+      ],
+      "timing": [
+        "Control entre 120 y 149 días después del diagnóstico.",
+        "El control debe realizarse durante el período evaluado.",
+        "Ventana de diagnóstico: desde 148 días antes del inicio hasta 149 días antes del final del período evaluado (ejemplo de la ficha: 5 de agosto del año anterior a 4 de agosto del evaluado)."
+      ],
+      "pitfalls": [
+        "Un control tardío, aunque normal, no cumple la oportunidad exigida. Se excluyen casos con diagnóstico y control ambos en el año anterior."
+      ],
+      "successCriterion": "D50 seguido de hemoglobina >11 g/dL en control tomado a los 120–149 días.",
+      "sourcePages": [
+        48,
+        49
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "Verificados población por edad/sexo, diagnóstico D50, ventana de diagnóstico, control de 120–149 días, umbral estricto > y exclusión diagnóstico/control año anterior."
+      ],
+      "calculation": "Menores de seis a menos de 24 meses con D50 y anemia resuelta ÷ menores con D50 de la ventana de diagnóstico establecida × 100.",
+      "essentialNotes": []
+    },
+    {
+      "code": "03-03-2.0",
+      "population": "Niñas de 10 años con diagnóstico de anemia por deficiencia de hierro (D50).",
+      "requiredActions": [
+        "Dar seguimiento a la anemia y realizar hemograma de control oportuno.",
+        "Para contar como anemia resuelta, el control debe mostrar Hb >11,5 g/dL."
+      ],
+      "recording": [
+        "Registrar D50 en consulta externa. Conservar resultado de hemoglobina y fecha de toma de la muestra en niño sano o laboratorio.",
+        "Para los controles, la fuente de laboratorio contempla muestras entre 10 años y 11 años cuatro meses."
+      ],
+      "timing": [
+        "Control entre 120 y 149 días después del diagnóstico.",
+        "El control debe realizarse durante el período evaluado.",
+        "Ventana de diagnóstico: desde 148 días antes del inicio hasta 149 días antes del final del período evaluado (ejemplo de la ficha: 5 de agosto del año anterior a 4 de agosto del evaluado)."
+      ],
+      "pitfalls": [
+        "El umbral de resolución es >11,5 g/dL. Se excluyen casos con diagnóstico y control ambos en el año anterior."
+      ],
+      "successCriterion": "D50 seguido de hemoglobina >11,5 g/dL en control tomado a los 120–149 días.",
+      "sourcePages": [
+        50,
+        51
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "Verificados población por edad/sexo, diagnóstico D50, ventana de diagnóstico, control de 120–149 días, umbral estricto > y exclusión diagnóstico/control año anterior."
+      ],
+      "calculation": "Niñas de 10 años con D50 y anemia resuelta ÷ niñas de 10 años con D50 de la ventana de diagnóstico establecida × 100.",
+      "essentialNotes": []
+    },
+    {
+      "code": "03-04-1.0",
+      "population": "Población de nueve a 11 años con atención, independientemente de sus factores de riesgo cardiovascular.",
+      "requiredActions": [
+        "Realizar al menos un perfil lipídico completo en ese rango de edad.",
+        "El perfil debe incluir colesterol total, HDL y triglicéridos de la misma fecha."
+      ],
+      "recording": [
+        "Registrar resultados y fecha de muestra en el énfasis correspondiente o laboratorio. Registrar peso y talla en consulta.",
+        "Para el indicador complementario nutricional se usa la primera consulta con peso y talla; sin ambos datos, se usa la primera consulta del año para el tamizaje universal."
+      ],
+      "timing": [
+        "Perfil realizado entre los nueve años y los 11 años 11 meses 29 días."
+      ],
+      "pitfalls": [
+        "Un perfil incompleto o con componentes de distintas fechas no es completo. Se excluye a quienes ya fueron tamizados en ese rango de edad en años anteriores."
+      ],
+      "successCriterion": "Perfil completo con los tres resultados de la misma fecha, realizado dentro del rango de edad.",
+      "sourcePages": [
+        64,
+        65
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "Verificados tres componentes y misma fecha, edades máximas, antecedente tamizaje y selección de consulta."
+      ],
+      "calculation": "Personas de 9–11 años con perfil completo del período ÷ personas de 9–11 años atendidas del período × 100, con las exclusiones de tamizaje previo.",
+      "essentialNotes": []
+    },
+    {
+      "code": "03-05-1.0",
+      "population": "Población de dos a 19 años con obesidad: de dos a cuatro años P/T >+3 pZ; de cinco a 19 años IMC >+2 pZ.",
+      "requiredActions": [
+        "Registrar peso y talla en una misma consulta para establecer obesidad; se usa la primera consulta del año con ambos datos.",
+        "Realizar perfil lipídico completo: colesterol total, HDL y triglicéridos de la misma fecha."
+      ],
+      "recording": [
+        "Conservar resultados y fecha de toma de muestra en el énfasis correspondiente o laboratorio."
+      ],
+      "timing": [
+        "Perfil realizado durante el período evaluado y dentro del rango de dos a 19 años."
+      ],
+      "pitfalls": [
+        "Sin peso y talla no se establece el caso para este indicador. Se excluye dislipidemia E78 diagnosticada en el período anterior."
+      ],
+      "successCriterion": "Persona con obesidad establecida por antropometría y perfil completo realizado durante el período.",
+      "sourcePages": [
+        66,
+        67
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "Verificados umbrales peso/talla e IMC, rangos de edad, primera consulta con peso+talla, tres componentes misma fecha, período y E78 previo como exclusión."
+      ],
+      "calculation": "Personas de 2–19 años con obesidad y perfil completo del período ÷ personas de 2–19 años con obesidad atendidas del período × 100.",
+      "essentialNotes": []
+    },
+    {
+      "code": "04-01-1.0",
+      "population": "Personas de 65 años y más con consulta de primera vez en el período en áreas de salud del primer nivel.",
+      "requiredActions": [
+        "Aplicar completo el énfasis de Adulto Mayor en alguna consulta del período; puede completarse en una consulta posterior a la primera."
+      ],
+      "recording": [
+        "Aplicar y registrar completo el énfasis de Adulto Mayor en EDUS-SIES. La fuente de evaluación es el reporte AES."
+      ],
+      "timing": [
+        "Durante el período anual evaluado."
+      ],
+      "pitfalls": [
+        "La cobertura se calcula frente a la población estimada de 65 años y más, no solo frente a quienes consultan. Se excluye Clínica La Reforma."
+      ],
+      "successCriterion": "Persona de 65 años y más atendida con el énfasis completo registrado.",
+      "sourcePages": [
+        73
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "La fuente tiene una probable errata: campo de fuente poblacional dice 64 años, pero nombre, definición y fórmula dicen 65 años y más. No trasladar esa errata al resumen.",
+        "La inclusión exige consulta de primera vez de personas de 65 años y más; el énfasis completo puede aplicarse en alguna de las consultas del período."
+      ],
+      "calculation": "Personas de 65 años y más con énfasis completo ÷ población estimada de 65 años y más del período × 100.",
+      "essentialNotes": [
+        "La inclusión exige consulta de primera vez de personas de 65 años y más; el énfasis completo puede aplicarse en alguna de las consultas del período."
+      ]
+    },
+    {
+      "code": "05-01-1.0",
+      "population": "Personas de 20 a 64 años atendidas con IMC ≥30 kg/m².",
+      "requiredActions": [
+        "Identificar la primera consulta del período con obesidad.",
+        "Consignar el diagnóstico de obesidad, cualquiera que sea su grado."
+      ],
+      "recording": [
+        "Peso y talla válidos para calcular IMC.",
+        "Diagnóstico E660, E668 o E669 en EDUS.",
+        "Fuente: EDUS, Cubo DCSS EPSS Generales."
+      ],
+      "timing": [
+        "Medición anual. Se considera la primera consulta del año con IMC ≥30 kg/m² y la primera consulta del año con registro del diagnóstico de obesidad."
+      ],
+      "pitfalls": [
+        "Se excluyen embarazadas e IMC ≤10 o ≥105 kg/m², o sin peso/talla.",
+        "La cifra 30 es inclusiva: IMC de 30,0 sí entra.",
+        "Exclusión de embarazadas identificadas por Z321, Z33, Z34, Z35, Z640, O300, O308 u O309."
+      ],
+      "successCriterion": "La persona con IMC ≥30 tiene registrado el diagnóstico de obesidad; no basta el IMC por sí solo.",
+      "sourcePages": [
+        80,
+        81
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "Resumen de criterios documentados; no acredita haber reunido todas las modificaciones posteriores a noviembre de 2024.",
+        "Cálculo: personas elegibles con IMC ≥30 y diagnóstico registrado / todas las personas elegibles atendidas con IMC ≥30, ×100.",
+        "El diagnóstico es de reporte obligatorio y debe consignarse independientemente del grado I, II o III; E660/E668/E669 son diagnósticos y no equivalen a grados de obesidad.",
+        "Meta quinquenal del diseño base: 33 %. Es una meta poblacional, distinta del criterio de registro de cada persona."
+      ],
+      "calculation": "Personas atendidas de 20 a 64 años con IMC ≥30 y diagnóstico de obesidad / personas atendidas de 20 a 64 años con IMC ≥30, ×100; aplicar las exclusiones.",
+      "sourceId": "diseno-epss-2024-2028",
+      "sourceTitle": "CCSS, Dirección Compra de Servicios de Salud. Diseño general EPSS 2024–2028, actualizado a noviembre de 2024.",
+      "essentialNotes": [
+        "El diagnóstico es de reporte obligatorio y debe consignarse independientemente del grado I, II o III; E660/E668/E669 son diagnósticos y no equivalen a grados de obesidad."
+      ]
+    },
+    {
+      "code": "05-02-1.0",
+      "population": "Personas de 20 a 64 años con IMC ≥30 kg/m² y diagnóstico de obesidad.",
+      "requiredActions": [
+        "Referir a Nutrición y dejar registrada la referencia en el período evaluado.",
+        "Comprobar si ya existe referencia registrada en los tres años anteriores."
+      ],
+      "recording": [
+        "IMC, diagnóstico E660/E668/E669 y referencia a Nutrición en EDUS.",
+        "Fuente operativa: EDUS, Cubo DCSS EPSS Generales; para referencias, también Cubo Referencias Salud."
+      ],
+      "timing": [
+        "Primera consulta del año con obesidad y diagnóstico; referencia del período."
+      ],
+      "pitfalls": [
+        "Para el cálculo se excluyen las personas con referencia registrada en los tres períodos anteriores. La necesidad clínica de una nueva referencia se valora por separado.",
+        "Se excluyen embarazadas e IMC ≤10 o ≥105 kg/m², o ausencia de peso y/o talla.",
+        "La ficha no limita la referencia a obesidad grado II o III.",
+        "Exclusión de embarazadas identificadas por Z321, Z33, Z34, Z35, Z640, O300, O308 u O309."
+      ],
+      "successCriterion": "Concurren IMC ≥30, diagnóstico de obesidad y referencia a Nutrición en el período, una vez aplicadas las exclusiones.",
+      "sourcePages": [
+        82,
+        83
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "Resumen de criterios documentados; no acredita haber reunido todas las modificaciones posteriores a noviembre de 2024.",
+        "Cálculo: personas elegibles con IMC ≥30, diagnóstico y referencia del período / personas elegibles con IMC ≥30 y diagnóstico, ×100; aplicar exclusión por referencia en los tres períodos anteriores.",
+        "La ficha mantiene separados el registro del diagnóstico, la referencia y la modalidad de atención indicada por Nutrición.",
+        "Meta quinquenal del diseño base: 20 %."
+      ],
+      "calculation": "Personas atendidas de 20 a 64 años con IMC ≥30, diagnóstico de obesidad y referencia a Nutrición en el período / personas atendidas de 20 a 64 años con IMC ≥30 y diagnóstico de obesidad, ×100; excluir referencias de los tres períodos anteriores y las demás exclusiones.",
+      "sourceId": "diseno-epss-2024-2028",
+      "sourceTitle": "CCSS, Dirección Compra de Servicios de Salud. Diseño general EPSS 2024–2028, actualizado a noviembre de 2024.",
+      "essentialNotes": [
+        "La ficha mantiene separados el registro del diagnóstico, la referencia y la modalidad de atención indicada por Nutrición."
+      ]
+    },
+    {
+      "code": "05-03-1.0",
+      "population": "Personas de 40 a 64 años con IMC ≥30 kg/m² y otro factor de riesgo cardiovascular, en áreas con profesional en Nutrición.",
+      "requiredActions": [
+        "Asegurar participación en consulta modalidad grupal de Nutrición.",
+        "Identificar otro factor: DM2 (E11), HTA (I10X) o dislipidemia (E78).",
+        "La modalidad se define por la normativa de Nutrición: consulta grupal para obesidad I/II y PINEC para obesidad III con otro factor cardiovascular; no asignar los códigos E660/E668/E669 a grados distintos."
+      ],
+      "recording": [
+        "Atención y participación grupal en EDUS.",
+        "La ficha describe consulta grupal de obesidad con E660/E668/E669 y PINEC con E90X, Z728 o E631.",
+        "Fuente operativa: EDUS, Cubo DCSS EPSS Generales, consultas de Nutrición del período y previas, más diagnósticos del otro factor de riesgo."
+      ],
+      "timing": [
+        "Atenciones y participación del período."
+      ],
+      "pitfalls": [
+        "Se excluye atención grupal previa en los tres o cinco períodos anteriores, según normativa: obesidad I/II, tres años; III, cinco.",
+        "Se excluyen IMC ≤10 o ≥105 o sin peso/talla."
+      ],
+      "successCriterion": "La persona elegible tiene participación registrada en consulta grupal de Nutrición; la sola referencia no cumple este indicador.",
+      "sourcePages": [
+        84,
+        85
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "Resumen de criterios documentados; no acredita haber reunido todas las modificaciones posteriores a noviembre de 2024.",
+        "Cálculo: personas de 40 a 64 años con IMC ≥30, otro factor cardiovascular y participación grupal registrada / personas atendidas de ese grupo de edad con IMC ≥30 y otro factor, ×100.",
+        "Incluye atenciones de primera vez del período. Se aplica solo en áreas con profesional en Nutrición.",
+        "Exclusión según la ficha: personas atendidas en modalidad grupal en los tres o cinco períodos anteriores, conforme a la normativa.",
+        "Meta quinquenal del diseño base: en construcción; no se debe inventar una meta porcentual."
+      ],
+      "calculation": "Personas de 40 a 64 años con IMC ≥30, otro factor cardiovascular y participación en consulta grupal de Nutrición en el período / personas atendidas de 40 a 64 años con IMC ≥30 y otro factor cardiovascular en el período, ×100; aplicar las exclusiones.",
+      "sourceId": "diseno-epss-2024-2028",
+      "sourceTitle": "CCSS, Dirección Compra de Servicios de Salud. Diseño general EPSS 2024–2028, actualizado a noviembre de 2024.",
+      "essentialNotes": [
+        "Incluye atenciones de primera vez del período. Se aplica solo en áreas con profesional en Nutrición.",
+        "Exclusión según la ficha: personas atendidas en modalidad grupal en los tres o cinco períodos anteriores, conforme a la normativa."
+      ]
+    },
+    {
+      "code": "05-04-1.0",
+      "population": "Personas de 20 años y más con síndrome metabólico y Atención Multidisciplinaria Completa (AMC), en áreas con Nutrición.",
+      "requiredActions": [
+        "Completar cinco atenciones grupales de síndrome metabólico.",
+        "Obtener triglicéridos disponibles a partir de la quinta atención."
+      ],
+      "recording": [
+        "Atenciones grupales con Z728 en EDUS.",
+        "Fecha y resultado de triglicéridos en el énfasis correspondiente/laboratorio.",
+        "Al completar cinco atenciones, registrar Z863 según el oficio citado.",
+        "Fuente operativa: EDUS, Cubo DCSS EPSS Generales; el diagnóstico de SM (E889) se analiza además en un indicador complementario separado."
+      ],
+      "timing": [
+        "La medición de triglicéridos debe ser posterior a la fecha de la cuarta atención."
+      ],
+      "pitfalls": [
+        "Se excluye AMC en los cinco años previos.",
+        "Completar la AMC no equivale por sí solo al resultado esperado."
+      ],
+      "successCriterion": "La persona con AMC alcanza triglicéridos <150 mg/dL en la medición admitida.",
+      "sourcePages": [
+        90,
+        91
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "Resumen de criterios documentados; no acredita haber reunido todas las modificaciones posteriores a noviembre de 2024.",
+        "La AMC comprende cinco atenciones de SM registradas en EDUS en modalidad grupal, con Z728, según el manual multidisciplinario; gestor: profesional en Nutrición.",
+        "El código Z863 de culminación no sustituye el registro de las cinco atenciones Z728.",
+        "No se ha localizado una duración obligatoria de 15–18 meses en estas fichas; no se añade ese plazo al cálculo.",
+        "Cálculo: personas con AMC y triglicéridos <150 mg/dL / personas con AMC, ×100. La ficha incorpora pruebas realizadas después de la cuarta atención y describe el resultado disponible a partir de la quinta.",
+        "Fuente del resultado: énfasis correspondiente de EDUS y Sistema Integrado de Laboratorio Clínico/LabCore.",
+        "Meta quinquenal del diseño base: 43 %."
+      ],
+      "calculation": "Personas con SM en la AMC y triglicéridos <150 mg/dL / personas con SM en la AMC, ×100.",
+      "sourceId": "diseno-epss-2024-2028",
+      "sourceTitle": "CCSS, Dirección Compra de Servicios de Salud. Diseño general EPSS 2024–2028, actualizado a noviembre de 2024.",
+      "essentialNotes": [
+        "La AMC comprende cinco atenciones de SM registradas en EDUS en modalidad grupal, con Z728, según el manual multidisciplinario; gestor: profesional en Nutrición.",
+        "El código Z863 de culminación no sustituye el registro de las cinco atenciones Z728.",
+        "No se ha localizado una duración obligatoria de 15–18 meses en estas fichas; no se añade ese plazo al cálculo.",
+        "Fuente del resultado: énfasis correspondiente de EDUS y Sistema Integrado de Laboratorio Clínico/LabCore."
+      ]
+    },
+    {
+      "code": "05-05-1.0",
+      "population": "Personas de 20 años y más con síndrome metabólico y AMC, en áreas con Nutrición.",
+      "requiredActions": [
+        "Completar al menos cinco atenciones grupales en el período.",
+        "Comparar el peso de la primera y de la quinta consulta."
+      ],
+      "recording": [
+        "Ambas consultas con Z728; pesos en kg y con un decimal.",
+        "Al completar cinco atenciones, registrar Z863 según el oficio citado.",
+        "Fuente operativa: EDUS, Cubo DCSS EPSS Generales; el diagnóstico de SM (E889) se analiza además en un indicador complementario separado."
+      ],
+      "timing": [
+        "Se usan primera y quinta consulta de AMC del período."
+      ],
+      "pitfalls": [
+        "Se excluye AMC en los cinco años previos.",
+        "No sustituir los pesos de primera/quinta consulta por otras mediciones."
+      ],
+      "successCriterion": "La reducción [(peso inicial − peso de quinta consulta) / peso inicial] ×100 es al menos 5 %. Esa reducción individual es distinta de.",
+      "sourcePages": [
+        92,
+        93
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "Resumen de criterios documentados; no acredita haber reunido todas las modificaciones posteriores a noviembre de 2024.",
+        "La AMC comprende cinco atenciones de SM registradas en EDUS en modalidad grupal, con Z728, según el manual multidisciplinario; gestor: profesional en Nutrición.",
+        "El código Z863 de culminación no sustituye el registro de las cinco atenciones Z728.",
+        "No se ha localizado una duración obligatoria de 15–18 meses en estas fichas; no se añade ese plazo al cálculo.",
+        "Cálculo: personas con AMC que reducen ≥5 % de peso / personas con AMC, ×100. El cambio individual se calcula con los pesos de primera y quinta consulta: (PPC − PQC)/PPC ×100.",
+        "Meta quinquenal del diseño base: en construcción; el 5 % es el resultado exigido a cada persona y no la meta porcentual poblacional."
+      ],
+      "calculation": "Personas con SM en la AMC que reducen al menos 5 % del peso / personas con SM en la AMC, ×100. Pérdida individual: [(peso de primera consulta − peso de quinta consulta) / peso de primera consulta] ×100.",
+      "sourceId": "diseno-epss-2024-2028",
+      "sourceTitle": "CCSS, Dirección Compra de Servicios de Salud. Diseño general EPSS 2024–2028, actualizado a noviembre de 2024.",
+      "essentialNotes": [
+        "La AMC comprende cinco atenciones de SM registradas en EDUS en modalidad grupal, con Z728, según el manual multidisciplinario; gestor: profesional en Nutrición.",
+        "El código Z863 de culminación no sustituye el registro de las cinco atenciones Z728.",
+        "No se ha localizado una duración obligatoria de 15–18 meses en estas fichas; no se añade ese plazo al cálculo."
+      ]
+    },
+    {
+      "code": "06-01-1.0",
+      "population": "Personas de 20 años y más con DM2.",
+      "requiredActions": [
+        "Brindar y registrar la consulta de primera vez en el año por DM2."
+      ],
+      "recording": [
+        "Diagnóstico CIE-10 E11 en EDUS.",
+        "Fuente operativa: EDUS, Cubo DCSS EPSS Cardiovascular DM2; diagnóstico DM2 identificado por E11 en la cobertura base."
+      ],
+      "timing": [
+        "Primera consulta del año; medición anual de cobertura.",
+        "Medición anual; la primera consulta del año identifica la población atendida."
+      ],
+      "pitfalls": [
+        "No significa diagnóstico nuevo de diabetes: se cuenta la primera atención del año.",
+        "La persona se asigna al área donde recibió esa primera consulta.",
+        "El denominador es la población estimada con DM2 según prevalencia, no solo las personas inscritas en seguimiento."
+      ],
+      "successCriterion": "La persona con DM2 tiene una primera consulta anual registrada. La cobertura se calcula frente a la población estimada.",
+      "sourcePages": [
+        99
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "Resumen de criterios documentados; no acredita haber reunido todas las modificaciones posteriores a noviembre de 2024.",
+        "Cálculo: primeras consultas anuales por DM2 de personas de 20 años y más / población con DM2 estimada, ×100.",
+        "La estimación es población anual DAE de 20 años y más multiplicada por la prevalencia de DM2 de la última Encuesta de Vigilancia de Factores de Riesgo Cardiovascular.",
+        "La redacción de las variables/fórmula base dice «mayores de 20» para el denominador, mientras población e inclusión dicen «20 años y más». Se conserva la población inclusiva del nombre/definición; la ficha contiene esa discrepancia.",
+        "Exclusiones declaradas en la ficha: no aplica. Meta quinquenal del diseño base: 56 %."
+      ],
+      "calculation": "Consultas de primera vez en el año de personas de 20 años y más con DM2 / población estimada con DM2 de ese grupo de edad, ×100. Población estimada = población anual DAE × prevalencia DM2 de la última encuesta.",
+      "sourceId": "diseno-epss-2024-2028",
+      "sourceTitle": "CCSS, Dirección Compra de Servicios de Salud. Diseño general EPSS 2024–2028, actualizado a noviembre de 2024.",
+      "essentialNotes": [
+        "La estimación es población anual DAE de 20 años y más multiplicada por la prevalencia de DM2 de la última Encuesta de Vigilancia de Factores de Riesgo Cardiovascular.",
+        "La redacción de las variables/fórmula base dice «mayores de 20» para el denominador, mientras población e inclusión dicen «20 años y más». Se conserva la población inclusiva del nombre/definición; la ficha contiene esa discrepancia."
+      ]
+    },
+    {
+      "code": "06-02-1.0",
+      "population": "Personas de 20 años y más con DM2 y primera consulta del año.",
+      "requiredActions": [
+        "Disponer de la última HbA1c del segundo semestre.",
+        "Valorar si cumple el umbral según edad."
+      ],
+      "recording": [
+        "Fecha y resultado de HbA1c en el énfasis correspondiente de EDUS o sistema de laboratorio.",
+        "Fuente operativa: EDUS, Cubo DCSS EPSS Cardiovascular DM2; diagnóstico DM2 identificado por E11 en la cobertura base."
+      ],
+      "timing": [
+        "Para evaluación anual solo se considera la última medición entre el 1.º de julio y el 31 de diciembre, inclusive.",
+        "Medición anual; la primera consulta del año identifica la población atendida."
+      ],
+      "pitfalls": [
+        "Sin fecha y resultado de la prueba, se clasifica como control no óptimo.",
+        "Una HbA1c del primer semestre no sustituye la medición exigida para el resultado anual."
+      ],
+      "successCriterion": "Última HbA1c del segundo semestre <7 %; en personas mayores de 80 años, <8 %. Realizar la prueba y alcanzar control son criterios distintos.",
+      "sourcePages": [
+        100
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "Resumen de criterios documentados; no acredita haber reunido todas las modificaciones posteriores a noviembre de 2024.",
+        "Cálculo: personas de la población atendida con el último resultado válido del segundo semestre en control óptimo / población DM2 atendida de primera vez en el año, ×100.",
+        "Umbrales estrictos: <7 %; solo si tiene más de 80 años, <8 %. Un valor exactamente igual al umbral no cumple.",
+        "El indicador complementario mide HbA1c al menos una vez en cada semestre; es distinto del principal, que usa el último resultado del segundo semestre para control anual.",
+        "Exclusiones declaradas: no aplica. Fuente de laboratorio: Sistema Integrado de Laboratorio Clínico/LabCore. Meta quinquenal del diseño base: 52 %."
+      ],
+      "calculation": "Consultas de primera vez en el año de personas con DM2 y control glicémico óptimo / consultas de primera vez en el año de personas con DM2, ×100. Usar el último resultado del segundo semestre.",
+      "sourceId": "diseno-epss-2024-2028",
+      "sourceTitle": "CCSS, Dirección Compra de Servicios de Salud. Diseño general EPSS 2024–2028, actualizado a noviembre de 2024.",
+      "essentialNotes": [
+        "Umbrales estrictos: <7 %; solo si tiene más de 80 años, <8 %. Un valor exactamente igual al umbral no cumple.",
+        "El indicador complementario mide HbA1c al menos una vez en cada semestre; es distinto del principal, que usa el último resultado del segundo semestre para control anual."
+      ]
+    },
+    {
+      "code": "06-03-1.0",
+      "population": "Personas de 20 años y más con DM2 y primera consulta del año.",
+      "requiredActions": [
+        "Tomar y registrar presión arterial sistólica y diastólica.",
+        "Revisar la última consulta con registro de PA del período."
+      ],
+      "recording": [
+        "PAS y PAD en el apartado de signos vitales/énfasis correspondiente de EDUS.",
+        "Fuente operativa: EDUS, Cubo DCSS EPSS Cardiovascular DM2; diagnóstico DM2 identificado por E11 en la cobertura base."
+      ],
+      "timing": [
+        "Se utiliza la última PA registrada en el período.",
+        "Medición anual; la primera consulta del año identifica la población atendida."
+      ],
+      "pitfalls": [
+        "Sin registro de PA se clasifica como control no óptimo.",
+        "La ficha excluye a quien no tiene PA en el cubo si su última consulta fue en PVP con expediente físico.",
+        "La actualización de metas del protocolo de HTA no modifica automáticamente este indicador de DM2."
+      ],
+      "successCriterion": "Criterio de la ficha base: última PA <140/80 mmHg, es decir, PAS <140 y PAD <80.",
+      "sourcePages": [
+        101
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "Resumen de criterios documentados; no acredita haber reunido todas las modificaciones posteriores a noviembre de 2024.",
+        "Cálculo: personas atendidas por DM2 con última PA en control óptimo / población DM2 atendida de primera vez en el año, ×100, aplicando la exclusión por PVP.",
+        "La ficha usa la última cifra de PA registrada en el apartado de PAS/PAD del cubo Cardiovascular DM2; el registro de ambas cifras es decisivo.",
+        "La excepción PVP se refiere a ausencia de PA en el cubo y última consulta efectuada en PVP cuyo registro fue en expediente físico; no se debe extender a cualquier falta de registro.",
+        "Meta quinquenal del diseño base: 60 %. No se localizó una ficha reemplazante que cambie automáticamente a <130/80 el indicador 06-03."
+      ],
+      "calculation": "Consultas de primera vez en el año de personas con DM2 y control óptimo de PA / consultas de primera vez en el año de personas con DM2, ×100; aplicar exclusión PVP.",
+      "sourceId": "diseno-epss-2024-2028",
+      "sourceTitle": "CCSS, Dirección Compra de Servicios de Salud. Diseño general EPSS 2024–2028, actualizado a noviembre de 2024.",
+      "essentialNotes": [
+        "La ficha usa la última cifra de PA registrada en el apartado de PAS/PAD del cubo Cardiovascular DM2; el registro de ambas cifras es decisivo.",
+        "La excepción PVP se refiere a ausencia de PA en el cubo y última consulta efectuada en PVP cuyo registro fue en expediente físico; no se debe extender a cualquier falta de registro."
+      ]
+    },
+    {
+      "code": "06-04-1.0",
+      "population": "Personas de 20 años y más con DM2 y primera consulta del año.",
+      "requiredActions": [
+        "Disponer del último perfil lipídico del año.",
+        "Comprobar LDL y triglicéridos de esa misma medición."
+      ],
+      "recording": [
+        "Fecha y resultados de LDL, colesterol total, triglicéridos y HDL con la misma fecha, en EDUS/laboratorio.",
+        "Fuente operativa: EDUS, Cubo DCSS EPSS Cardiovascular DM2; diagnóstico DM2 identificado por E11 en la cobertura base."
+      ],
+      "timing": [
+        "Se utiliza el último perfil lipídico del período anual.",
+        "Medición anual; la primera consulta del año identifica la población atendida."
+      ],
+      "pitfalls": [
+        "Triglicéridos ≥400 mg/dL en la última medición se clasifican como control no óptimo.",
+        "Sin fecha y resultado de laboratorio también se clasifica como no óptimo.",
+        "Pedir el examen no equivale a tener un resultado documentado ni a alcanzar la meta."
+      ],
+      "successCriterion": "LDL <100 mg/dL en el último perfil anual, sin triglicéridos ≥400 mg/dL en esa medición.",
+      "sourcePages": [
+        102
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "Resumen de criterios documentados; no acredita haber reunido todas las modificaciones posteriores a noviembre de 2024.",
+        "Cálculo: personas DM2 atendidas con control lipídico óptimo / población DM2 atendida de primera vez en el año, ×100.",
+        "LDL debe ser estrictamente <100 mg/dL y el último perfil debe incluir LDL, colesterol total, triglicéridos y HDL con la misma fecha. Un perfil antiguo favorable no sustituye el último perfil del año.",
+        "Triglicéridos de 400 mg/dL exactamente ya se clasifican como no óptimos. La falta de fecha/resultado tampoco cumple.",
+        "Exclusiones declaradas: no aplica. Fuente de laboratorio: Sistema Integrado de Laboratorio Clínico/LabCore. Meta quinquenal del diseño base: 45 %."
+      ],
+      "calculation": "Consultas de primera vez en el año de personas con DM2 y control lipídico óptimo / consultas de primera vez en el año de personas con DM2, ×100. Usar el último perfil lipídico del año.",
+      "sourceId": "diseno-epss-2024-2028",
+      "sourceTitle": "CCSS, Dirección Compra de Servicios de Salud. Diseño general EPSS 2024–2028, actualizado a noviembre de 2024.",
+      "essentialNotes": [
+        "LDL debe ser estrictamente <100 mg/dL y el último perfil debe incluir LDL, colesterol total, triglicéridos y HDL con la misma fecha. Un perfil antiguo favorable no sustituye el último perfil del año.",
+        "Triglicéridos de 400 mg/dL exactamente ya se clasifican como no óptimos. La falta de fecha/resultado tampoco cumple."
+      ]
+    },
+    {
+      "code": "07-01-1.0",
+      "population": "Personas de 20 años y más con hipertensión arterial.",
+      "requiredActions": [
+        "Brindar y registrar la consulta de primera vez en el año por HTA."
+      ],
+      "recording": [
+        "Diagnóstico I10x en EDUS, según la ficha base.",
+        "Fuente operativa: EDUS, Reporte de HTA o Cubo Cardiovascular."
+      ],
+      "timing": [
+        "Primera consulta del año; medición anual.",
+        "Periodicidad anual de la ficha base."
+      ],
+      "pitfalls": [
+        "Primera vez del año no equivale a diagnóstico nuevo de HTA.",
+        "El denominador se estima con población de 20 años y más multiplicada por la prevalencia de HTA.",
+        "No añadir I15 como código de inclusión de esta ficha sin una actualización que lo establezca."
+      ],
+      "successCriterion": "La persona con HTA tiene primera atención anual registrada; la cobertura se calcula frente a población estimada con HTA.",
+      "sourcePages": [
+        107
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "Resumen de criterios documentados; no acredita haber reunido todas las modificaciones posteriores a noviembre de 2024.",
+        "Cálculo: personas de 20 años y más atendidas de primera vez en el año por HTA / [población anual de 20 años y más de la pirámide × prevalencia HTA del grupo], ×100.",
+        "Fuentes del denominador: población anual DAE basada en INEC y prevalencia de la última Encuesta de Factores de Riesgo Cardiovascular de Vigilancia Epidemiológica.",
+        "Exclusiones declaradas: no aplica. Meta quinquenal del diseño base: 52 %."
+      ],
+      "calculation": "Personas con HTA de 20 años y más atendidas de primera vez en el período / [población anual de 20 años y más × prevalencia HTA del grupo de edad], ×100.",
+      "sourceId": "diseno-epss-2024-2028",
+      "sourceTitle": "CCSS, Dirección Compra de Servicios de Salud. Diseño general EPSS 2024–2028, actualizado a noviembre de 2024.",
+      "essentialNotes": [
+        "Fuentes del denominador: población anual DAE basada en INEC y prevalencia de la última Encuesta de Factores de Riesgo Cardiovascular de Vigilancia Epidemiológica."
+      ]
+    },
+    {
+      "code": "07-02-1.0",
+      "population": "Ficha base: personas de 20 años y más con HTA (I10x) y primera consulta anual.",
+      "requiredActions": [
+        "Registrar PA sistólica y diastólica; se toma la última PA del período.",
+        "Para la transición a 2026, revisar edad, riesgo cardiovascular y comorbilidades conforme al lineamiento."
+      ],
+      "recording": [
+        "PA en EDUS; revisar el riesgo/comorbilidades que determinan el umbral aplicable.",
+        "Fuente operativa: EDUS, Reporte de HTA o Cubo Cardiovascular."
+      ],
+      "timing": [
+        "Última PA del período; actualización indicada desde 2026.",
+        "Periodicidad anual de la ficha base."
+      ],
+      "pitfalls": [
+        "Se excluyen PAS <50 o PAD <40 y consultas sin PA en PVP sin SIES.",
+        "El lineamiento mantiene una salvedad sobre fragilidad y remite transitoriamente a su tabla 4; ver nota completa.",
+        "No extrapolar estas metas al indicador 06-03 de DM2."
+      ],
+      "successCriterion": "La última PA del período reúne ambas cifras por debajo de los límites del grupo correspondiente. El lineamiento para 2026 presenta: de 18 a <85 años, riesgo bajo/moderado <140/90; alto riesgo, DM, ERC, cardiopatía isquémica o enfermedad cardiovascular <130/80; ≥85 años, <140/90, idealmente las mismas metas considerando fragilidad y tolerabilidad. Leer la salvedad transitoria que sigue.",
+      "sourcePages": [
+        108
+      ],
+      "updateIds": [
+        "hta-metas-riesgo-2026",
+        "hta-inercia-terapeutica-2026"
+      ],
+      "coverageNotes": [
+        "Resumen de criterios documentados; no acredita haber reunido todas las modificaciones posteriores a noviembre de 2024.",
+        "Cálculo del diseño base: personas con HTA de 20 años y más con últimas cifras de PA óptimas / personas con HTA de 20 años y más atendidas de primera vez en el año, ×100. Meta quinquenal del diseño base: 65 %. No cambiar ese porcentaje por inferencia de los nuevos umbrales de PA.",
+        "Criterios base para 2024–2025: población general <140/90; mayores de 80 años <150/90; DM o nefropatía <140/80. Son distintos de los umbrales por riesgo/edad presentados por el lineamiento para la transición a 2026.",
+        "Actualización: lineamiento L.GM.DDSS.AAIP.130825 de 13/08/2025, pp. 2–3 y 11–13, indica aplicar protocolo V04 y aclaraciones desde 2026. Tabla de metas: página 13. La tabla incluye población desde 18 años, mientras esta ficha base incluye desde 20; no se ha localizado ficha reemplazante completa que redefina población/fórmula.",
+        "Salvedad textual decisiva: la DCSS no considerará la fragilidad para monitoreo/evaluación hasta contar con herramientas EDUS; mientras tanto, el lineamiento remite el abordaje clínico a su tabla 4. No suprimir esta precisión al presentar las metas nuevas.",
+        "Las exclusiones de PA inconsistente son PAS <50 mmHg o PAD <40 mmHg. La exclusión por ausencia de PA se limita a consultas realizadas en PVP sin SIES.",
+        "El informe anuncia medición de inercia terapéutica desde 2026, pero no aporta fórmula, meta, población elegible ni código completos; no se añaden reglas de cuatro consultas ni otras reglas no documentadas.",
+        "La ficha base no establece límites superiores adicionales para excluir cifras extremas de PA; no se inventan umbrales superiores."
+      ],
+      "calculation": "Personas con HTA de 20 años y más con últimas cifras de PA óptimas en el período / personas con HTA de 20 años y más atendidas de primera vez en el período, ×100; aplicar las exclusiones.",
+      "sourceId": "diseno-epss-2024-2028",
+      "sourceTitle": "CCSS, Dirección Compra de Servicios de Salud. Diseño general EPSS 2024–2028, actualizado a noviembre de 2024.",
+      "essentialNotes": [
+        "Criterios base para 2024–2025: población general <140/90; mayores de 80 años <150/90; DM o nefropatía <140/80. Son distintos de los umbrales por riesgo/edad presentados por el lineamiento para la transición a 2026.",
+        "Actualización: lineamiento L.GM.DDSS.AAIP.130825 de 13/08/2025, pp. 2–3 y 11–13, indica aplicar protocolo V04 y aclaraciones desde 2026. Tabla de metas: página 13. La tabla incluye población desde 18 años, mientras esta ficha base incluye desde 20; no se ha localizado ficha reemplazante completa que redefina población/fórmula.",
+        "Salvedad textual decisiva: la DCSS no considerará la fragilidad para monitoreo/evaluación hasta contar con herramientas EDUS; mientras tanto, el lineamiento remite el abordaje clínico a su tabla 4. No suprimir esta precisión al presentar las metas nuevas.",
+        "Las exclusiones de PA inconsistente son PAS <50 mmHg o PAD <40 mmHg. La exclusión por ausencia de PA se limita a consultas realizadas en PVP sin SIES.",
+        "El informe anuncia medición de inercia terapéutica desde 2026, pero no aporta fórmula, meta, población elegible ni código completos; no se añaden reglas de cuatro consultas ni otras reglas no documentadas.",
+        "La ficha base no establece límites superiores adicionales para excluir cifras extremas de PA; no se inventan umbrales superiores."
+      ]
+    },
+    {
+      "code": "09-01-2.0",
+      "population": "Mujeres de 20 a 29 años.",
+      "requiredActions": [
+        "Realizar citología cérvico-vaginal por PAP."
+      ],
+      "recording": [
+        "Registrar el procedimiento realizado ; la ficha enumera los diagnósticos Z014 o Z124 contemplados en la ficha. Los nombres de procedimiento admitidos se conservan en el detalle.",
+        "Nombres contemplados: Citología cérvico-vaginal, Papanicolau, Tomar citología, Tomar citología cérvico-vaginal y Tomar muestra de pap."
+      ],
+      "timing": [
+        "Al menos un PAP en los últimos dos años; se toma el primero del período."
+      ],
+      "pitfalls": [
+        "El test de VPH no cuenta en este indicador de 20–29 años. Una solicitud sin procedimiento realizado no acredita el tamizaje.",
+        "La cobertura se calcula contra la población femenina estimada por DAE del grupo, no solo contra las mujeres que consultaron.",
+        "Es cobertura poblacional: el denominador base es la población de mujeres del grupo estimada por DAE para el segundo año de la ventana, no solo quienes consultaron. En 09-02, el cambio de ventana de 2026 requiere consultar la ficha vigente de reemplazo para sus detalles completos."
+      ],
+      "successCriterion": "PAP realizado y registrado en mujer del rango de edad dentro de la ventana bienal.",
+      "sourcePages": [
+        117,
+        118
+      ],
+      "updateIds": [],
+      "coverageNotes": [
+        "La fuente enumera códigos y procedimientos, sin describir explícitamente una lógica booleana de extracción; el resumen no inventa que ambos sean obligatorios."
+      ],
+      "calculation": "Mujeres de 20–29 años con PAP en los últimos dos años ÷ población femenina estimada DAE del grupo en el segundo año × 100.",
+      "essentialNotes": []
+    },
+    {
+      "code": "09-02-2.0",
+      "population": "Mujeres de 30 a 64 años.",
+      "requiredActions": [
+        "Realizar el tamizaje cervicouterino y registrar la prueba efectuada."
+      ],
+      "recording": [
+        "La ficha base contempla Z014 o Z124 y procedimientos de PAP o VPH; conservar nombre y fecha del procedimiento realizado.",
+        "Nombres contemplados: Citología cérvico-vaginal, Papanicolau, Tomar citología, Tomar citología cérvico-vaginal, Tomar muestra de pap, Realizar tamizaje virus papiloma humano y Tamizaje virus papiloma humano."
+      ],
+      "timing": [
+        "Cambio de cálculo desde 2026: ventana de cinco años y acumulación de pruebas VPH realizadas desde 2024, según informe 2025 (PDF p.144)."
+      ],
+      "pitfalls": [
+        "La actualización localizada no reproduce la ficha completa de reemplazo. No trasladar la ventana quinquenal al grupo de 20–29 años.",
+        "La ficha de 2024 era bienal e incluía PAP o VPH. El cambio documentado para 2026 es una nota metodológica del informe 2025 y no resuelve por sí solo todos los detalles de una ficha reemplazante.",
+        "La cobertura se calcula contra la población femenina estimada por DAE del grupo, no solo contra las mujeres que consultaron.",
+        "Es cobertura poblacional: el denominador base es la población de mujeres del grupo estimada por DAE para el segundo año de la ventana, no solo quienes consultaron. En 09-02, el cambio de ventana de 2026 requiere consultar la ficha vigente de reemplazo para sus detalles completos."
+      ],
+      "successCriterion": "Tamizaje registrado en mujer de 30–64 años, interpretado con el cambio de ventana documentado para 2026.",
+      "sourcePages": [
+        119,
+        120
+      ],
+      "updateIds": [
+        "cervix-ventana-quinquenal-2026"
+      ],
+      "coverageNotes": [
+        "La fuente enumera códigos y procedimientos, sin describir explícitamente una lógica booleana de extracción; el resumen no inventa que ambos sean obligatorios."
+      ],
+      "calculation": "Base 2024: mujeres de 30–64 años con PAP o VPH en dos años ÷ población femenina estimada DAE del grupo × 100. Desde 2026, interpretar con la nota de ventana quinquenal del informe 2025.",
+      "essentialNotes": []
+    },
+    {
+      "code": "09-03-2.0",
+      "population": "Mujeres de 40 a 74 años. La cobertura y su meta se evalúan por RIPSS.",
+      "requiredActions": [
+        "Realizar mamografía; la ficha incluye mamografía, unilateral y por tomosíntesis."
+      ],
+      "recording": [
+        "Registrar el estudio realizado y verificar adscripción. La fuente admite EDUS y listados manuales; el informe 2025 incluye estudios móviles ALSALUD.",
+        "Para atribución se consulta la última adscripción registrada; el denominador es la población estimada por DAE del segundo año de la ventana."
+      ],
+      "timing": [
+        "Al menos una mamografía en los últimos dos años; se cuenta la primera del período."
+      ],
+      "pitfalls": [
+        "La solicitud o referencia no acredita un estudio realizado. La meta de la ficha corresponde a la RIPSS, no a cada área de salud."
+      ],
+      "successCriterion": "Mamografía realizada dentro del rango de edad y de la ventana bienal.",
+      "sourcePages": [
+        125,
+        126
+      ],
+      "updateIds": [
+        "mamografia-alsalud-2025"
+      ],
+      "coverageNotes": [
+        "Verificados rango de 40–74 años, ventana bienal, realización, procedimientos, adscripción y nivel RIPSS, fuente manual ALSALUD sin alterar meta."
+      ],
+      "calculation": "Mujeres de 40–74 años con mamografía en los últimos dos años ÷ población femenina estimada DAE del grupo en el segundo año × 100. Resultado por RIPSS.",
+      "essentialNotes": []
+    },
+    {
+      "code": "11-01-1.0",
+      "population": "Áreas de salud de gestión interna; gestión administrativa de la producción de todos los profesionales de salud.",
+      "requiredActions": [
+        "Relacionar gasto real en remuneraciones básicas con atenciones y comparar con el año anterior.",
+        "Conciliar producción de consulta externa y urgencias de todos los horarios."
+      ],
+      "recording": [
+        "Identificar el gasto de la subpartida Sueldos para cargos fijos (SPCF 2001). Para el cálculo de 2025 se documenta SPCF más 41 % del salario global.",
+        "Usar fuentes institucionales de gasto y cubos EDUS. En 2025 se usaron bases DAGP por problemas de RP-SAP.",
+        "El gasto es real, deflactado por IPC. Incluye profesionales médicos y no médicos, residentes y servicio social que reportan producción en el cubo."
+      ],
+      "timing": [
+        "Comparación interanual."
+      ],
+      "pitfalls": [
+        "No es un requisito de una atención individual. En 2025 el gasto incluyó SPCF + 41 % del salario global; no se demuestra su vigencia permanente para ejercicios futuros. Se excluye gestión externa."
+      ],
+      "successCriterion": "Índice de gasto medio real por atención del año respecto al anterior ≤1.",
+      "sourcePages": [
+        132,
+        133
+      ],
+      "updateIds": [
+        "gspcf-salario-global-2025",
+        "fuente-gasto-dagp-2025"
+      ],
+      "coverageNotes": [
+        "Verificados gestión interna/exclusión externa, índice interanual del gasto medio real, IPC, fuentes y meta ≤1. Las modificaciones de fuente de 2025 se etiquetan sin asumir vigencia permanente."
+      ],
+      "calculation": "(Gasto real anual en remuneraciones básicas ÷ atenciones del año) ÷ (gasto real del año anterior ÷ atenciones del año anterior).",
+      "essentialNotes": []
+    },
+    {
+      "code": "11-02-2.0",
+      "population": "Áreas de salud de gestión interna con gasto y producción en horario de 4:00 p.m. a 6:00 a.m.",
+      "requiredActions": [
+        "Relacionar gasto real en tiempos extraordinarios con las atenciones del horario y comparar con el año anterior.",
+        "Conciliar atenciones y subpartidas de tiempos extraordinarios."
+      ],
+      "recording": [
+        "Usar registros institucionales de gasto y producción EDUS del horario definido. En 2025 se usaron bases DAGP por problemas de RP-SAP.",
+        "El gasto es real, deflactado por IPC. Subpartidas base: 2021, 2022, 2023, 2024, 2026 y 2027; no se limita a horas extra 2021."
+      ],
+      "timing": [
+        "Evaluación anual; producción desde 4:00 p.m. hasta 6:00 a.m. del día siguiente."
+      ],
+      "pitfalls": [
+        "No es requisito de una atención individual. Se excluye gestión externa y unidades sin gasto o producción; ≤2 000 atenciones anuales se considera sin producción."
+      ],
+      "successCriterion": "Índice de gasto medio real por atención en tiempos extraordinarios respecto al año anterior ≤1.",
+      "sourcePages": [
+        134,
+        135
+      ],
+      "updateIds": [
+        "fuente-gasto-dagp-2025"
+      ],
+      "coverageNotes": [
+        "Verificados gestión interna/exclusión externa, índice interanual del gasto medio real, IPC, fuentes y meta ≤1. Las modificaciones de fuente de 2025 se etiquetan sin asumir vigencia permanente."
+      ],
+      "calculation": "(Gasto real anual en tiempos extraordinarios ÷ atenciones del horario definido del año) ÷ (gasto real del año anterior ÷ atenciones del horario del año anterior).",
+      "essentialNotes": []
+    }
+  ]
+}

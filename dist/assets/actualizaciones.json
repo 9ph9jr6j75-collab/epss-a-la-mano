@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-27",
+  "source": {
+    "id": "informe-epss-pna-2025",
+    "title": "Evaluación de la Prestación de Servicios de Salud del Primer Nivel de Atención: Informe de resultados 2025",
+    "issuer": "CCSS, Gerencia Médica, Dirección Compra de Servicios de Salud",
+    "publicationYear": 2026,
+    "isbn": "978-9930-630-19-8",
+    "pageCount": 211,
+    "url": "https://www.binasss.sa.cr/INFORME2025FINAL.pdf",
+    "paginationNote": "En el PDF local, la página física es la página impresa más 2 para los pasajes citados.",
+    "file": "tmp/pdfs/epss-informe-2025.pdf"
+  },
+  "updates": [
+    {
+      "id": "hta-metas-riesgo-2026",
+      "title": "HTA: metas por riesgo cardiovascular y edad para la transición a 2026",
+      "baseCodes": [
+        "07-02-1.0"
+      ],
+      "appliesFrom": "2026",
+      "status": "Transición de criterios indicada por lineamiento CCSS",
+      "summary": "El lineamiento del 13 de agosto de 2025 dispone mantener los criterios de evaluación anteriores durante 2025 y aplicar desde 2026 el protocolo de HTA versión 04 y las aclaraciones del propio lineamiento. La tabla de la página 13 presenta las metas según riesgo y edad.",
+      "comparisonTable": {
+        "columns": [
+          "Grupo de población",
+          "Meta de PA (mmHg)"
+        ],
+        "rows": [
+          [
+            "Riesgo bajo o moderado, de 18 a menos de 85 años",
+            "<140/90"
+          ],
+          [
+            "Alto riesgo cardiovascular, DM, ERC, cardiopatía isquémica o enfermedad cardiovascular, de 18 a menos de 85 años",
+            "<130/80"
+          ],
+          [
+            "Personas de 85 años o más",
+            "<140/90, considerando fragilidad y tolerabilidad"
+          ]
+        ]
+      },
+      "baseContrast": "La ficha de noviembre de 2024 mantiene <140/90 en población general, <150/90 en mayores de 80 años y <140/80 con diabetes o nefropatía. El informe de resultados 2025 evalúa ese período anterior.",
+      "reportPrintedPages": [
+        2,
+        3,
+        11,
+        12,
+        13
+      ],
+      "reportPdfPages": [
+        13
+      ],
+      "sourceId": "hta-lineamiento-2025",
+      "limitations": [
+        "La tabla de metas se ubica en el apartado de monitoreo y auditoría a partir de 2026 (páginas 11 a 13).",
+        "El lineamiento indica que la fragilidad no se incluirá en el monitoreo y evaluación hasta disponer de herramientas tecnológicas en EDUS; contiene una consideración transitoria que remite a su tabla 4. Debe conservarse esta precisión al interpretar los criterios.",
+        "No se ha localizado en esta recopilación una ficha completa de reemplazo para 2026 con nueva fórmula o código. No se modifican las metas porcentuales del indicador por inferencia.",
+        "Las metas de este protocolo de HTA no se extrapolan automáticamente a todos los indicadores de DM2."
+      ],
+      "codeRelation": "Referencia explícita al protocolo de atención de HTA PAC.GM.DDSS.AAIP.140325 versión 04 y a la evaluación a partir de 2026."
+    },
+    {
+      "id": "cervix-ventana-quinquenal-2026",
+      "title": "Tamizaje cervicouterino de 30 a 64 años: ventana quinquenal",
+      "baseCodes": [
+        "09-02-2.0"
+      ],
+      "codeRelation": "Código de la ficha del diseño base. El informe no aporta un nuevo código de versión.",
+      "appliesFrom": "2026",
+      "status": "Cambio metodológico expreso en el informe",
+      "summary": "Desde 2026, la cobertura de tamizaje de mujeres de 30 a 64 años se calcula con una ventana de cinco años y acumula pruebas de VPH realizadas desde 2024.",
+      "baseContrast": "El diseño de noviembre de 2024 calcula cobertura bienal y considera PAP o VPH al menos una vez en los dos años previos.",
+      "reportPrintedPages": [
+        142
+      ],
+      "reportPdfPages": [
+        144
+      ],
+      "basePdfPages": [
+        119
+      ],
+      "sourceId": "informe-epss-pna-2025",
+      "limitations": [
+        "El pasaje no reproduce una ficha técnica completa actualizada ni asigna un código de nueva versión.",
+        "No extrapolar este cambio de cálculo al grupo de 20 a 29 años.",
+        "El propio informe advierte un período de transición para interpretar los resultados."
+      ],
+      "presentationHint": "Mostrar como actualización vinculada a la ficha base, conservando identificada la definición original de 2024."
+    },
+    {
+      "id": "hta-inercia-terapeutica-2026",
+      "title": "Hipertensión: medición de inercia terapéutica anunciada para 2026",
+      "baseCodes": [
+        "07-02-1.0"
+      ],
+      "codeRelation": "Relación temática con control de presión arterial. No consta un código específico para la nueva medición.",
+      "appliesFrom": "2026",
+      "status": "Medición anunciada; ficha específica no localizada",
+      "summary": "El informe anuncia la incorporación desde 2026 de una medición de la ausencia de ajustes farmacológicos cuando persisten cifras de presión arterial superiores a las metas definidas.",
+      "baseContrast": "La ficha base evalúa control óptimo de presión arterial; no define un indicador específico de inercia terapéutica.",
+      "reportPrintedPages": [
+        127
+      ],
+      "reportPdfPages": [
+        129
+      ],
+      "basePdfPages": [
+        108
+      ],
+      "sourceId": "informe-epss-pna-2025",
+      "limitations": [
+        "No se aporta fórmula completa, población elegible, meta institucional ni código de la medición.",
+        "No reemplaza el indicador de control óptimo de presión arterial ni autoriza a inventar reglas clínicas."
+      ],
+      "presentationHint": "Presentar en novedades; no añadir una meta ni una calculadora de este indicador."
+    },
+    {
+      "id": "gspcf-salario-global-2025",
+      "title": "Eficiencia: remuneraciones básicas incluyen parte del salario global",
+      "baseCodes": [
+        "11-01-1.0"
+      ],
+      "codeRelation": "Mismo indicador GSPCF de la ficha base.",
+      "appliesFrom": "Evaluación de 2025",
+      "status": "Ajuste operativo utilizado en los resultados de 2025",
+      "summary": "El gasto en remuneraciones básicas utilizado para GSPCF incluye sueldos para cargos fijos más el 41 % del salario global. La producción incluye consulta externa y urgencias en todos los horarios.",
+      "baseContrast": "La ficha base considera la subpartida de sueldos para cargos fijos y prevé adaptar la definición por la implementación del salario global. Consulta externa y urgencias ya figuraban en el diseño.",
+      "reportPrintedPages": [
+        164,
+        166
+      ],
+      "reportPdfPages": [
+        166,
+        168
+      ],
+      "basePdfPages": [
+        132,
+        133
+      ],
+      "sourceId": "informe-epss-pna-2025",
+      "limitations": [
+        "El dato de 41 % corresponde al cálculo descrito por el informe de resultados 2025.",
+        "No se localizó oficio o ficha reemplazante que establezca su vigencia para todos los ejercicios futuros.",
+        "La inclusión de consulta externa y urgencias no se presenta como novedad posterior a la ficha base."
+      ],
+      "presentationHint": "Añadir una precisión de cálculo documentada para 2025, sin alterar silenciosamente el texto base."
+    },
+    {
+      "id": "fuente-gasto-dagp-2025",
+      "title": "Eficiencia: fuente de datos de gasto utilizada en 2025",
+      "baseCodes": [
+        "11-01-1.0",
+        "11-02-2.0"
+      ],
+      "codeRelation": "Indicadores GSPCF y GSTEX de la ficha base.",
+      "appliesFrom": "Evaluación de 2025",
+      "status": "Sustitución operativa de fuente para el período evaluado",
+      "summary": "Para calcular ambos indicadores de gasto en 2025, la DCSS utilizó bases salariales de la Dirección de Administración y Gestión de Personal porque problemas operativos de RP-SAP impidieron obtener la información por la vía regular.",
+      "baseContrast": "Las fichas base señalan el Sistema Integrado de Información Presupuestaria y, en GSTEX, prevén el módulo presupuestario ERP.",
+      "reportPrintedPages": [
+        16,
+        164,
+        180
+      ],
+      "reportPdfPages": [
+        18,
+        166,
+        182
+      ],
+      "basePdfPages": [
+        132,
+        135
+      ],
+      "sourceId": "informe-epss-pna-2025",
+      "limitations": [
+        "Es una precisión sobre la fuente efectivamente utilizada en 2025, no una sustitución normativa permanente demostrada."
+      ],
+      "presentationHint": "Mostrar en la sección de metodología y fuentes del indicador."
+    },
+    {
+      "id": "mamografia-alsalud-2025",
+      "title": "Mamografías: incorporación de registros manuales de ALSALUD",
+      "baseCodes": [
+        "09-03-2.0"
+      ],
+      "codeRelation": "Código del diseño base para cobertura de mamografía. El informe no presenta aquí una ficha nueva.",
+      "appliesFrom": "Evaluación de 2025",
+      "status": "Fuente complementaria utilizada en 2025",
+      "summary": "El análisis de mamografías incorpora listados manuales de estudios de la unidad móvil de ALSALUD remitidos por la Coordinación Técnica del Cáncer. Esos datos ingresaron al EDUS hasta finales de 2025.",
+      "baseContrast": "La precisión corresponde a la recolección de datos para los resultados de 2025.",
+      "reportPrintedPages": [
+        16
+      ],
+      "reportPdfPages": [
+        18
+      ],
+      "basePdfPages": [
+        125,
+        126
+      ],
+      "sourceId": "informe-epss-pna-2025",
+      "limitations": [
+        "El pasaje describe una fuente complementaria; no establece una nueva población, periodicidad clínica o meta de mamografía."
+      ],
+      "presentationHint": "Mostrar como nota de fuente, sin cambiar las reglas de tamizaje de la ficha base."
+    }
+  ],
+  "interpretationNotes": [
+    {
+      "id": "dos-metas-2025",
+      "title": "Comparabilidad de la Medida Resumen de 2024 y 2025",
+      "summary": "El informe advierte que en 2025 se aplicaron dos metas formuladas con criterios más exigentes que en 2024. El pasaje no identifica cuáles son.",
+      "reportPrintedPages": [
+        192,
+        193,
+        194
+      ],
+      "reportPdfPages": [
+        194,
+        195,
+        196
+      ],
+      "limitations": "No asignar el cambio a indicadores concretos ni modificar metas de las fichas sin la fuente que lo identifique."
+    },
+    {
+      "id": "atap-no-es-cambio-posterior",
+      "title": "Tamizaje domiciliario de presión arterial",
+      "summary": "El informe describe incorporación operativa desde 2025; los indicadores ya estaban previstos en el diseño de noviembre de 2024.",
+      "reportPrintedPages": [
+        122
+      ],
+      "reportPdfPages": [
+        124
+      ],
+      "basePdfPages": [
+        7,
+        112,
+        113
+      ],
+      "limitations": "No rotular como modificación posterior al diseño de noviembre de 2024."
+    },
+    {
+      "id": "gconj-complementario",
+      "title": "Índice de gasto conjunto por atención (GCONJ)",
+      "summary": "Se presenta como análisis complementario o experimental construido con los componentes de GSPCF y GSTEX.",
+      "reportPrintedPages": [
+        164,
+        165,
+        173,
+        180,
+        184
+      ],
+      "reportPdfPages": [
+        166,
+        167,
+        175,
+        182,
+        186
+      ],
+      "limitations": "No sustituye los dos indicadores base ni debe añadirse como una ficha oficial nueva de la EPSS sin otra fuente."
+    }
+  ],
+  "scopeNote": "Síntesis documental del informe de resultados 2025 frente al diseño de noviembre de 2024. No acredita por sí sola una colección completa de fichas u oficios vigentes en 2026. No incluye instrucciones clínicas nuevas.",
+  "verbatimQuotes": [],
+  "additionalSources": [
+    {
+      "id": "hta-lineamiento-2025",
+      "title": "Lineamiento de herramientas de aplicabilidad para el abordaje de la persona adulta y adulta mayor con presión arterial elevada e hipertensión arterial en el primer nivel de atención de la CCSS",
+      "code": "L.GM.DDSS.AAIP.130825",
+      "date": "2025-08-13",
+      "validity": "2030",
+      "endorsement": "GM-14028-2025",
+      "url": "https://repositorio.binasss.sa.cr/server/api/core/bitstreams/d949fa0b-8e41-40cb-95db-25d731fe82dd/content",
+      "pdfFile": "assets/lineamiento-hta-2025.pdf"
+    }
+  ]
+}
