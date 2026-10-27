@@ -30,6 +30,7 @@ jobs:
           node --check dist/full-reader.js
           node scripts/verify-full-reader.cjs
           node scripts/verify-analytics.cjs
+          node scripts/verify-document-viewer.cjs
           python3 scripts/verify-catalog.py
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
