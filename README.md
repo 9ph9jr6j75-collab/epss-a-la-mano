@@ -74,3 +74,13 @@ La versión Full organiza todos los campos como secciones que se ajustan al anch
 Las fracciones se presentan con numerador y denominador, incluidas las razones anidadas y las cinco fórmulas prenatales. Las ecuaciones aditivas conservan sus líneas. Las tablas prenatal, lipídica y de metas bucodentales se muestran por celdas, con sus columnas identificadas; las intervenciones prenatales conservan las columnas gestacionales que abarcaban las celdas combinadas. La lectura no necesita columnas de texto de ancho fijo. El PDF original sigue disponible.
 
 `node scripts/verify-full-reader.cjs` comprueba el texto visible de las 84 fichas y las relaciones de fórmulas y tablas. `python scripts/verify-catalog.py` comprueba los documentos y los vínculos.
+
+### PDF originales e impresión
+
+Los enlaces a PDF internos abren un visor de la app con Volver, páginas y zoom. Al cerrarlo se conservan la ficha, el modo de lectura y su posición. PDF.js 5.6.205 se carga al solicitar un PDF; la biblioteca y el worker se conservan con sus licencias en `dist/assets/pdfjs/`. La biblioteca no se descarga al iniciar la consulta habitual.
+
+En iPhone y iPad, el icono de impresión abre el visor. Compartir o imprimir entrega el PDF original al menú de iOS, donde se elige Imprimir o Guardar en Archivos. El archivo se prepara antes de habilitar el botón. La app evita navegar directamente al PDF en iOS. En computadora se puede abrir el archivo original en otra pestaña para imprimirlo.
+
+Guardar documentos sin conexión incluye los componentes del visor. `node scripts/verify-document-viewer.cjs` comprueba cierre, historial, foco, cancelación de carga, límites del canvas, compartir el archivo original y caché del visor.
+
+En posparto 01-02-2.0, los 12 CIE-10 se identifican como selección de consultas posnatales y se aclara que no deben registrarse todos juntos. El respaldo está en Fuente de información, páginas 1 y 2 del PDF oficial.
