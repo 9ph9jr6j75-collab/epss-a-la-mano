@@ -1,0 +1,287 @@
+{
+  "reviewedOn": "2026-10-27",
+  "confirmedCurrentPeriod": null,
+  "requestedPeriod": "2026",
+  "currentPeriodStatus": "pending_official_instrument",
+  "currentPeriodNote": "No se localizó un instrumento oficial MR2026 ni un listado de miembros de su cálculo. Las fichas individuales no contienen etiquetaMR. No trasladar automáticamente el listado2025III a2026.",
+  "historicalSets": [
+    {
+      "id": "2025-iii",
+      "year": 2025,
+      "periodLabel": "III monitoreo 2025 (enero-setiembre)",
+      "status": "verified_historical",
+      "goalIndicatorCountInternal": 22,
+      "goalIndicatorCountExternal": 21,
+      "resultsIndicatorCount": 21,
+      "items": [
+        {
+          "family": "01-01",
+          "sourceCode": "01-01-1.0",
+          "name": "Cobertura de atención temprana de menores de un año",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 22,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "01-02",
+          "sourceCode": "01-02-2.0",
+          "name": "Cobertura de atención temprana de mujeres en periodo posnatal",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 23,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "01-03",
+          "sourceCode": "01-03-1.0",
+          "name": "Cobertura de atención temprana de embarazadas",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 24,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "02-01",
+          "sourceCode": "02-01-1.0",
+          "name": "Cobertura de atención en salud oral a las personas de 20 a 64 años",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 45,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "02-02",
+          "sourceCode": "02-02-1.0",
+          "name": "Cobertura de atención en salud oral a las personas de 65 años y más",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 46,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "02-03",
+          "sourceCode": "02-03-1.0",
+          "name": "Porcentaje de atenciones en salud oral en las que se brinda educación en salud oral, preventiva por grupo de edad 0 a 9 años",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 47,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "02-04",
+          "sourceCode": "02-04-1.0",
+          "name": "Porcentaje de atenciones en salud oral en las que se brinda educación en salud oral, preventiva por grupo de edad 10 a 19 años",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 48,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "02-05",
+          "sourceCode": "02-05-1.0",
+          "name": "Porcentaje de atenciones en salud oral en las que se brinda educación en salud oral, preventiva por grupo de edad 20 a 64 años",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 49,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "02-06",
+          "sourceCode": "02-06-1.0",
+          "name": "Porcentaje de atenciones en salud oral en las que se brinda educación en salud oral, preventiva por grupo de edad 65 y más años",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 50,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "03-01",
+          "sourceCode": "03-01-2.0",
+          "name": "03-01-2.0 Tamizaje oportuno para la anemia por deficiencia de hierro de la población de seis a menos de 10 meses",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 62,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "03-04",
+          "sourceCode": "03-04-0.1",
+          "name": "Porcentaje de población de 9 a 11 años con tamizaje universal de dislipidemia",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 75,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "05-01",
+          "sourceCode": "05-01-1.0",
+          "name": "Porcentaje de personas atendidas de 20 a 64 años con un IMC ≥ 30,0 Kg/m2 a quienes se les registra el diagnóstico de obesidad",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 99,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "05-02",
+          "sourceCode": "05-02-1.0",
+          "name": "Porcentaje de personas atendidas de 20 a 64 años con un IMC ≥ 30,0 Kg/m2 y un diagnóstico de obesidad que son referidas a Nutrición",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 100,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "06-01",
+          "sourceCode": "06-01-1.0",
+          "name": "Cobertura de atención de personas con diabetes mellitus tipo 2.",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 115,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "06-02",
+          "sourceCode": "06-02-1.0",
+          "name": "Porcentaje de personas atendidas por diabetes mellitus tipo 2 con control glicémico óptimo.",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 116,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "06-03",
+          "sourceCode": "06-03-1.0",
+          "name": "Porcentaje de personas atendidas por diabetes mellitus tipo 2 con control óptimo de la presión arterial.",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 117,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "06-04",
+          "sourceCode": "06-04-1.0",
+          "name": "Porcentaje de personas atendidas por diabetes mellitus tipo 2 con control lipídico óptimo.",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 118,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "07-01",
+          "sourceCode": "07-01-1.0",
+          "name": "Cobertura de atención a personas con hipertensión arterial (HTA)",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 128,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "07-02",
+          "sourceCode": "07-02-1.0",
+          "name": "Control óptimo de la presión arterial en personas con hipertensión arterial (HTA)",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 129,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "09-01",
+          "sourceCode": "09-01-2.0",
+          "name": "Cobertura bienal de tamizaje con citología cervicovaginal por PAP en mujeres de 20 a 29 años",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 165,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "09-02",
+          "sourceCode": "09-02-2.0",
+          "name": "Cobertura bienal de tamizaje con citología cervicovaginal en mujeres de 30 a 64 años",
+          "contributesToResultsSum": true,
+          "contributesToGoals": true,
+          "appliesTo": "internas y externas",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 166,
+          "status": "verified_historical_2025_III"
+        },
+        {
+          "family": "11-01",
+          "sourceCode": "11-01-1.0",
+          "name": "Comportamiento del gasto en sueldos para cargos fijos por consulta (índice)",
+          "contributesToResultsSum": false,
+          "contributesToGoals": true,
+          "appliesTo": "unidades internas; externas excluidas por contrato",
+          "sourceSheet": "RESULTADOS",
+          "sourceRow": 195,
+          "status": "verified_historical_2025_III"
+        }
+      ],
+      "source": {
+        "id": "ras-2025-iii",
+        "title": "RAS2025_IIIMONITOREO311025.xlsm",
+        "issuerDeclared": "DCSS. Evaluación de la Prestación de Servicios de Salud",
+        "period": "enero-setiembre 2025",
+        "cutDate": "2025-10-31",
+        "driveFileId": "1sghcckrNcbqBivARF7kkWvONb-bNK5bj",
+        "url": "https://docs.google.com/spreadsheets/d/1sghcckrNcbqBivARF7kkWvONb-bNK5bj/edit",
+        "sha256": "5963dd7f92d72c7d75520f4a96e623ee0cd40e4596e6aad5f501e1c4b546fd57",
+        "notesSource": "RESULTADOS!B230 y B232; INDICADORES!fila1; MEDIDARESUMEN!A1:F106",
+        "note9": "9_El valor de la Medida Resumen se calcula multiplicando la Sumatoria de Resultados por el Porcentaje de metas  alcanzadas. El Porcentaje de metas alcanzadas se cacula de la división del Número de metas alcanzadas entre 22 (para las unidades externas entre 21), que es el número de indicadores de evaluación considerados en la metodología. "
+      },
+      "verification": {
+        "method": "Conciliación aritmética de la suma de21indicadoresclínicos topados100 contra MEDIDARESUMEN!D enlas105áreas. Lectura de nota9 para metas22/21 y de metas/resultado seleccionadoGuápilespara comprobar rol de11-01.",
+        "unitsReconciled": 105,
+        "unitsFailed": 0,
+        "inferenceNote": "La pertenencia a suma resulta de conciliación matemática105/105 y la condiciónmeta22/21 de nota explícita. No es resolución normativa ni lista separada del autor."
+      },
+      "aliases": [
+        {
+          "sourceCode": "03-04-0.1",
+          "currentFamily": "03-04",
+          "note": "El RAS usa03-04-0.1; ficha técnica descargada usa03-04-1.0. Enlazar porfamilia conhistorial; no cambiar la transcripción de códigoenfuente."
+        }
+      ]
+    }
+  ]
+}
