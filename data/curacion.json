@@ -81,73 +81,73 @@
         {
           "code": "Z390",
           "label": "Atención y examen inmediatamente después del parto",
-          "role": "Selección de población",
+          "role": "Selección de consultas posnatales",
           "criteria": "Diagnósticos usados para identificar consultas posnatales de primera vez; registrar el que corresponda a la atención."
         },
         {
           "code": "Z391",
           "label": "Atención y examen de madre en periodo de lactancia",
-          "role": "Selección de población",
+          "role": "Selección de consultas posnatales",
           "criteria": "Diagnósticos usados para identificar consultas posnatales de primera vez; registrar el que corresponda a la atención."
         },
         {
           "code": "Z392",
           "label": "Seguimiento postparto de rutina",
-          "role": "Selección de población",
+          "role": "Selección de consultas posnatales",
           "criteria": "Diagnósticos usados para identificar consultas posnatales de primera vez; registrar el que corresponda a la atención."
         },
         {
           "code": "Z370",
           "label": "Nacido vivo único",
-          "role": "Selección de población",
+          "role": "Selección de consultas posnatales",
           "criteria": "Diagnósticos usados para identificar consultas posnatales de primera vez; registrar el que corresponda a la atención."
         },
         {
           "code": "Z379",
           "label": "Producto de parto no específico",
-          "role": "Selección de población",
+          "role": "Selección de consultas posnatales",
           "criteria": "Diagnósticos usados para identificar consultas posnatales de primera vez; registrar el que corresponda a la atención."
         },
         {
           "code": "O800",
           "label": "Parto único espontáneo, presentación cefálica de vértice",
-          "role": "Selección de población",
+          "role": "Selección de consultas posnatales",
           "criteria": "Diagnósticos usados para identificar consultas posnatales de primera vez; registrar el que corresponda a la atención."
         },
         {
           "code": "O03",
           "label": "Aborto espontáneo",
-          "role": "Selección de población",
+          "role": "Selección de consultas posnatales",
           "criteria": "Diagnósticos usados para identificar consultas posnatales de primera vez; registrar el que corresponda a la atención."
         },
         {
           "code": "O04",
           "label": "Aborto médico",
-          "role": "Selección de población",
+          "role": "Selección de consultas posnatales",
           "criteria": "Diagnósticos usados para identificar consultas posnatales de primera vez; registrar el que corresponda a la atención."
         },
         {
           "code": "O05",
           "label": "Otro aborto",
-          "role": "Selección de población",
+          "role": "Selección de consultas posnatales",
           "criteria": "Diagnósticos usados para identificar consultas posnatales de primera vez; registrar el que corresponda a la atención."
         },
         {
           "code": "O06",
           "label": "Aborto no especificado",
-          "role": "Selección de población",
+          "role": "Selección de consultas posnatales",
           "criteria": "Diagnósticos usados para identificar consultas posnatales de primera vez; registrar el que corresponda a la atención."
         },
         {
           "code": "O021",
           "label": "Aborto retenido",
-          "role": "Selección de población",
+          "role": "Selección de consultas posnatales",
           "criteria": "Diagnósticos usados para identificar consultas posnatales de primera vez; registrar el que corresponda a la atención."
         },
         {
           "code": "O60",
           "label": "Parto prematuro",
-          "role": "Selección de población",
+          "role": "Selección de consultas posnatales",
           "criteria": "Diagnósticos usados para identificar consultas posnatales de primera vez; registrar el que corresponda a la atención."
         }
       ],
@@ -166,7 +166,9 @@
       "effectiveFrom": null,
       "supportingSources": [
         "doc-5aa7a4c43dd417b4"
-      ]
+      ],
+      "cie10Note": "Estos 12 códigos aparecen en la ficha técnica para identificar consultas posnatales. No es una lista de diagnósticos que deban registrarse juntos. Registre solo los códigos que correspondan a la atención y situación clínica. La atención temprana y la fecha de parto válida deben documentarse según la ficha.",
+      "cie10NoteSource": "Ficha 01-02-2.0, apartado Fuente de información, páginas 1 y 2."
     },
     {
       "sourceMember": "01_03_1_0_COBERTURA_TEMPRANA_EMBARAZADAS.pdf",
