@@ -22,6 +22,8 @@ La referencia histórica verificada corresponde al RAS del III monitoreo 2025, e
 
 ## Fuentes y créditos
 
+La cabecera muestra la fecha de actualización de la app y el acceso a `#mejoras`. Este historial corresponde a cambios de la herramienta; `#cambios` conserva las modificaciones documentales de las fichas. Al publicar una mejora, actualizar la fecha de la cabecera y añadir una entrada al historial sin atribuir a esa fecha vigencia de los documentos oficiales.
+
 Las fichas oficiales corresponden a la Dirección Compra de Servicios de Salud de la CCSS. Se conserva el diseño general EPSS 2024-2028 como base documental y el informe EPSS-PNA 2025 como fuente metodológica. La fecha de recopilación no sustituye una fecha de vigencia.
 
 La iniciativa de la herramienta y el resumen regional se acreditan a la DRIPSSHA. El resumen se muestra como antecedente de consulta, con una nota sobre las diferencias identificadas respecto de las fichas oficiales; no se destaca un área de salud. Los documentos hospitalarios exclusivos se reservan para una segunda aplicación.
