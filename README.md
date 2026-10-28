@@ -16,9 +16,9 @@ El catálogo CIE-10 abre con accesos por tema. HTA y sus alias llevan a hiperten
 
 ## Medida Resumen
 
-MR es la primera cejilla y abre directamente la referencia verificada del III monitoreo 2025, con sus22indicadores. La composición2026 se incorporará al confirmarse; no se ofrece una vista vacía ni se calcula una nota actual.
+MR es la primera cejilla y abre la referencia operativa del I y II trimestre de 2026 de la Dirección Compra de Servicios de Salud, con 24 indicadores. Se incorporan 01-04, 03-02 y 03-05. El usuario confirma que el reporte corresponde al instrumento nacional. La composición adoptada y su alcance se registran en data/mr-evidencia.json. El gasto en cargos fijos, 11-01, conserva participación pendiente de cotejo y no se cuenta como un indicador adicional entre los 24.
 
-La referencia histórica verificada corresponde al RAS del III monitoreo 2025, enero-setiembre, no al cierre anual: 21 indicadores clínicos aportan a la suma y a metas; 11-01 participa solo en metas de unidades internas. Se consideran 22 metas internas y 21 externas. Los enlaces identifican las familias históricas y abren las versiones publicadas disponibles, con una advertencia de período.
+La referencia histórica verificada corresponde al RAS del III monitoreo 2025, enero-setiembre, no al cierre anual: 21 indicadores clínicos aportan a la suma y a metas; 11-01 participa solo en metas de unidades internas. Se consideran 22 metas internas y 21 externas. Este antecedente permanece separado de la referencia actual de 2026 y conserva el acceso al RAS de origen.
 
 ## Fuentes y créditos
 
