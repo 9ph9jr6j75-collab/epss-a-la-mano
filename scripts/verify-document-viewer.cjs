@@ -94,18 +94,20 @@ async function main(){
   ios.history.back();assert.equal(ios.api.isOpen(),false,'Volver en el historial debe cerrar el PDF');assert.equal(ios.shell().querySelector('[data-doc-canvas]').width,0,'Cerrar debe liberar el lienzo');
   const desktop=testEnvironment({ios:false,fetchImpl:async()=>({ok:true,arrayBuffer:async()=>new TextEncoder().encode('%PDF-original').buffer})});await desktop.api.open('assets/source.pdf');desktop.shell().querySelector('[data-doc-action="print"]').click();assert.equal(desktop.opened[0][0],base+'assets/source.pdf','La pestaña de impresión no debe depender de un Blob que se revoca al cerrar');desktop.api.close();
   const swSource=fs.readFileSync(path.join(root,'dist/sw.js'),'utf8'),swHandlers={},matches=[],added=[],messages=[];
-  let precache=[];
-  const cache={addAll:async files=>{precache=files;},add:async file=>{added.push(file);},put:async()=>{},match:async name=>name==='assets/pdfjs/asset-manifest.json'?{ok:true,json:async()=>assetManifest}:undefined};
-  const self={location:{origin:'https://example.test'},clients:{claim:async()=>{}},skipWaiting:async()=>{},addEventListener:(name,handler)=>{swHandlers[name]=handler;}};
+  let precache=[],networkCalls=[];
+  const cache={addAll:async files=>{precache=files.map(file=>typeof file==='string'?file:new URL(file.url).pathname.split('/').pop()+new URL(file.url).search);assert.ok(files.every(file=>file.cache==='reload'),'La instalación debe evitar la caché HTTP anterior');},add:async file=>{added.push(file);},put:async()=>{},match:async name=>name==='assets/pdfjs/asset-manifest.json'?{ok:true,json:async()=>assetManifest}:undefined};
+  const self={location:{origin:'https://example.test',href:base+'sw.js'},clients:{claim:async()=>{}},skipWaiting:async()=>{},addEventListener:(name,handler)=>{swHandlers[name]=handler;}};
   const caches={open:async()=>cache,keys:async()=>[],delete:async()=>true,match:async(request,options)=>{matches.push({request,options});return options?.ignoreSearch&&new URL(request.url).pathname.includes('/assets/pdfjs/')?{cached:'pdfjs'}:undefined;}};
-  vm.runInNewContext(swSource,{self,caches,URL,Promise,Set,Response:{error:()=>({type:'error'})},fetch:async()=>{throw Error('Offline');}});
+  vm.runInNewContext(swSource,{self,caches,URL,Request,Promise,Set,Response:{error:()=>({type:'error'})},fetch:async(request,options)=>{networkCalls.push({request,options});throw Error('Offline');}});
   let task;swHandlers.install({waitUntil:promise=>{task=promise;}});await task;
   assert.ok(precache.includes('document-viewer.js')&&precache.includes('document-viewer.css'));
+  assert.ok(precache.includes('mr.json?v=20261027-v17')&&precache.includes('app-v2.js?v=20261027-v17')&&precache.includes('styles.css?v=20261027-v17'),'Los recursos versionados deben estar disponibles sin conexión');
   assert.ok(!precache.some(file=>/\.mjs$/.test(file)),'La biblioteca grande no debe descargarse al iniciar la app');
   for(const name of ['pdf.mjs','pdf.worker.mjs']){
     let response;swHandlers.fetch({request:{url:base+'assets/pdfjs/'+name+'?v=5.6.205&retry=1',method:'GET',mode:'cors'},respondWith:promise=>{response=promise;}});
     assert.equal((await response).cached,'pdfjs','El visor sin conexión debe encontrar el archivo guardado sin consulta de versión');
     assert.equal(matches.at(-1).options.ignoreSearch,true);
+    assert.equal(networkCalls.at(-1).options.cache,'no-cache','La consulta en línea debe revalidar los archivos de la app');
   }
   let ordinary;swHandlers.fetch({request:{url:base+'assets/config.json?v=unexpected',method:'GET',mode:'cors'},respondWith:promise=>{ordinary=promise;}});assert.equal((await ordinary).type,'error');assert.equal(matches.at(-1).options.ignoreSearch,false,'La excepción no debe mezclar consultas de otros recursos');
   swHandlers.message({data:{type:'CACHE_DOCUMENTS',files:catalog.documents.map(doc=>doc.file)},ports:[{postMessage:message=>messages.push(message)}],waitUntil:promise=>{task=promise;}});await task;
