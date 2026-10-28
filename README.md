@@ -86,3 +86,5 @@ En iPhone y iPad, el icono de impresión abre el visor. Compartir o imprimir ent
 Guardar documentos sin conexión incluye los componentes del visor. `node scripts/verify-document-viewer.cjs` comprueba cierre, historial, foco, cancelación de carga, límites del canvas, compartir el archivo original y caché del visor.
 
 En posparto 01-02-2.0, los 12 CIE-10 se identifican como selección de consultas posnatales y se aclara que no deben registrarse todos juntos. El respaldo está en Fuente de información, páginas 1 y 2 del PDF oficial.
+
+La instalación del service worker obtiene archivos con cache reload y las consultas en línea revalidan con no-cache. El salto a MR 2026 versiona las URLs de app-v2.js, styles.css y mr.json para evitar mezclar HTML nuevo con código o datos anteriores. Las mismas URLs se precargan para el uso sin conexión.
