@@ -2,8 +2,8 @@
   "reviewedOn": "2026-10-27",
   "confirmedCurrentPeriod": null,
   "requestedPeriod": "2026",
-  "currentPeriodStatus": "pending_official_instrument",
-  "currentPeriodNote": "No se localizó un instrumento oficial MR2026 ni un listado de miembros de su cálculo. Las fichas individuales no contienen etiquetaMR. No trasladar automáticamente el listado2025III a2026.",
+  "currentPeriodStatus": "adopted_operational_reference",
+  "currentPeriodNote": "Referencia operativa de 24 indicadores del informe del I y II trimestre de 2026 de la Dirección Compra de Servicios de Salud. La verificación completa del instrumento de cálculo y de la participación de 11-01 permanece pendiente.",
   "historicalSets": [
     {
       "id": "2025-iii",
@@ -283,5 +283,278 @@
         }
       ]
     }
-  ]
+  ],
+  "currentSet": {
+    "id": "2026-i-ii",
+    "year": 2026,
+    "periodLabel": "I y II trimestre 2026",
+    "referenceLabel": "Informe del I y II trimestre de 2026 · Dirección Compra de Servicios de Salud",
+    "status": "adopted_operational_reference",
+    "indicatorCount": 24,
+    "resultsIndicatorCount": 24,
+    "items": [
+      {
+        "family": "01-01",
+        "catalogCode": "01-01-1.0",
+        "name": "Atención temprana de menores de un año",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "01-02",
+        "catalogCode": "01-02-2.0",
+        "name": "Atención temprana en el posparto",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "01-03",
+        "catalogCode": "01-03-1.0",
+        "name": "Atención temprana de embarazadas",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "01-04",
+        "catalogCode": "01-04-2.1",
+        "name": "Paquete básico durante el embarazo",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": true,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "02-01",
+        "catalogCode": "02-01-1.0",
+        "name": "Cobertura de salud oral: 20 a 64 años",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "02-02",
+        "catalogCode": "02-02-1.0",
+        "name": "Cobertura de salud oral: 65 años y más",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "02-03",
+        "catalogCode": "02-03-1.0",
+        "name": "Educación en salud oral: 0 a 9 años",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "02-04",
+        "catalogCode": "02-04-1.0",
+        "name": "Educación en salud oral: 10 a 19 años",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "02-05",
+        "catalogCode": "02-05-1.0",
+        "name": "Educación en salud oral: 20 a 64 años",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "02-06",
+        "catalogCode": "02-06-1.0",
+        "name": "Educación en salud oral: 65 años y más",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "03-01",
+        "catalogCode": "03-01-2.0",
+        "name": "Tamizaje oportuno de anemia en lactantes",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "03-02",
+        "catalogCode": "03-02-2.0",
+        "name": "Resolución de anemia de seis a menos de 24 meses",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": true,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "03-04",
+        "catalogCode": "03-04-1.0",
+        "name": "Tamizaje universal de dislipidemia de nueve a 11 años",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "03-05",
+        "catalogCode": "03-05-1.1",
+        "name": "Tamizaje de dislipidemia en menores con obesidad",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": true,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "05-01",
+        "catalogCode": "05-01-1.0",
+        "name": "Diagnóstico registrado de obesidad",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "05-02",
+        "catalogCode": "05-02-2.0",
+        "name": "Referencia a Nutrición por obesidad",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "06-01",
+        "catalogCode": "06-01-2.0",
+        "name": "Cobertura de atención de DM2",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "06-02",
+        "catalogCode": "06-02-1.0",
+        "name": "Control glicémico óptimo en DM2",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "06-03",
+        "catalogCode": "06-03-1.1",
+        "name": "Control de presión arterial en DM2",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "06-04",
+        "catalogCode": "06-04-1.0",
+        "name": "Control lipídico óptimo en DM2",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "07-01",
+        "catalogCode": "07-01-2.0",
+        "name": "Cobertura de atención de hipertensión",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "07-02",
+        "catalogCode": "07-02-2.0",
+        "name": "Control óptimo de presión arterial en HTA",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "09-01",
+        "catalogCode": "09-01-2.0",
+        "name": "PAP de 20 a 29 años",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      },
+      {
+        "family": "09-02",
+        "catalogCode": "09-02-3.0",
+        "name": "Tamizaje cervicouterino de 30 a 64 años",
+        "contributesToResultsSum": true,
+        "contributesToGoals": true,
+        "appliesTo": "áreas de salud",
+        "newInReference": false,
+        "status": "adopted_operational_reference_2026_I_II"
+      }
+    ],
+    "pendingParticipation": [
+      {
+        "family": "11-01",
+        "catalogCode": "11-01-2.0",
+        "name": "Gasto en sueldos para cargos fijos por consulta",
+        "status": "pending_verification",
+        "note": "Su ausencia en la tabla comparativa de 24 indicadores no confirma que haya dejado de intervenir en las metas de la MR. Se conserva por separado hasta cotejar el instrumento de cálculo de 2026."
+      }
+    ],
+    "source": {
+      "id": "informe-2026-i-ii",
+      "title": "Informe del I y II trimestre de 2026",
+      "issuerDeclared": "Dirección Compra de Servicios de Salud",
+      "period": "I y II trimestre 2026",
+      "notesSource": "Tabla comparativa de 24 indicadores y reporte de áreas de salud de la DCSS."
+    },
+    "verification": {
+      "method": "Referencia operativa adoptada a partir de la tabla comparativa de 24 indicadores del reporte del I y II trimestre de 2026. La selección conserva las 21 familias clínicas de la referencia histórica e incorpora 01-04, 03-02 y 03-05.",
+      "scopeBasis": "El usuario confirma que corresponde al mismo instrumento de la Dirección Compra de Servicios de Salud utilizado para las unidades del país.",
+      "inferenceNote": "La composición es consistente con el total de 24 evaluables y con una conciliación orientativa de sus resultados redondeados. No equivale a una verificación completa de las fórmulas del RAS 2026 ni confirma el papel de 11-01.",
+      "catalogCodeNote": "Los códigos completos corresponden a las versiones de las fichas del catálogo actual; la tabla comparativa no los imprime."
+    }
+  }
 }
