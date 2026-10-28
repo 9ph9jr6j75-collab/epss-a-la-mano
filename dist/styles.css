@@ -1086,3 +1086,16 @@ body { background:var(--canvas); }
 #detail-modal .reading-table-row + .reading-table-row { padding-top:12px;border-top:1px solid color-mix(in srgb,var(--topic,#536875) 24%,white); }
 @media(max-width:760px) { #detail-modal .reading-formula { padding:16px 12px;gap:9px; }#detail-modal .reading-table { padding:12px; } }
 @media print { #detail-modal .reading-field-heading { font-size:13px; }#detail-modal .reading-formula { font-size:12px;background:white;break-inside:avoid; }#detail-modal .reading-table { background:white; } }
+
+/* Acceso visible a la autoría y al respaldo documental. */
+.utility-link.credits-access { padding:8px 11px;min-height:36px;border:1px solid #b2d3e6;border-radius:8px;background:#e3f1fa;color:#12638e;font-weight:700; }
+.utility-link.credits-access .credits-label-short { display:none; }
+.mr-new-badge { color:#356153;background:#e6f1eb;border-color:#c4dace; }
+.mr-history { margin-top:16px; }
+@media(max-width:760px) {
+ .utility-bar > .utility-links { flex-wrap:wrap;gap:11px; }
+ .utility-link.credits-access > span { display:inline; }
+ .utility-link.credits-access .credits-label-full { display:none; }
+ .utility-link.credits-access .credits-label-short { display:inline; }
+ .utility-link.credits-access { font-size:11px;padding:7px 10px; }
+}
