@@ -1,7 +1,7 @@
 'use strict';
-const CACHE='epss-dripssha-20261027-v18';
+const CACHE='epss-dripssha-20261107-v19';
 const VIEWER_MANIFEST='assets/pdfjs/asset-manifest.json';
-const CORE=['./','index.html','styles.css','full-reader.js','document-viewer.js','document-viewer.css','app-v2.js','manifest.webmanifest','assets/icon.svg','assets/icon-180.png','assets/icon-192.png','assets/icon-512.png','assets/social-preview.png','assets/catalogo.json','assets/mr.json','assets/config.json','styles.css?v=20261027-v17','app-v2.js?v=20261027-v17','assets/mr.json?v=20261027-v17',VIEWER_MANIFEST];
+const CORE=['./','index.html','styles.css','full-reader.js','document-viewer.js','document-viewer.css','app-v2.js','manifest.webmanifest','assets/icon.svg','assets/icon-180.png','assets/icon-192.png','assets/icon-512.png','assets/social-preview.png','assets/catalogo.json','assets/mr.json','assets/config.json','styles.css?v=20261027-v17','app-v2.js?v=20261107-v19','assets/mr.json?v=20261027-v17',VIEWER_MANIFEST];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE.map(file=>new Request(new URL(file,self.location.href),{cache:'reload'})))).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('epss-dripssha-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
 self.addEventListener('fetch',event=>{
