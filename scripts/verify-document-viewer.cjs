@@ -101,7 +101,11 @@ async function main(){
   vm.runInNewContext(swSource,{self,caches,URL,Request,Promise,Set,Response:{error:()=>({type:'error'})},fetch:async(request,options)=>{networkCalls.push({request,options});throw Error('Offline');}});
   let task;swHandlers.install({waitUntil:promise=>{task=promise;}});await task;
   assert.ok(precache.includes('document-viewer.js')&&precache.includes('document-viewer.css'));
-  assert.ok(precache.includes('mr.json?v=20261027-v17')&&precache.includes('app-v2.js?v=20261107-v19')&&precache.includes('styles.css?v=20261027-v17'),'Los recursos versionados deben estar disponibles sin conexión');
+  const html=fs.readFileSync(path.join(root,'dist/index.html'),'utf8'),appSource=fs.readFileSync(path.join(root,'dist/app-v2.js'),'utf8');
+  const versionedResources=[...html.matchAll(/(?:src|href)="((?:app-v2\.js|styles\.css)\?v=[^"]+)"/g)].map(match=>match[1]);
+  assert.equal(versionedResources.length,2,'El HTML debe identificar las versiones del script y los estilos');
+  const mrResource=appSource.match(/fetch\('(assets\/mr\.json\?v=[^']+)'/)[1].replace('assets/','');
+  assert.ok([...versionedResources,mrResource].every(file=>precache.includes(file)),'Los recursos versionados deben estar disponibles sin conexión');
   assert.ok(!precache.some(file=>/\.mjs$/.test(file)),'La biblioteca grande no debe descargarse al iniciar la app');
   for(const name of ['pdf.mjs','pdf.worker.mjs']){
     let response;swHandlers.fetch({request:{url:base+'assets/pdfjs/'+name+'?v=5.6.205&retry=1',method:'GET',mode:'cors'},respondWith:promise=>{response=promise;}});
