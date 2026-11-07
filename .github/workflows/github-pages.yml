@@ -27,6 +27,7 @@ jobs:
         run: |
           test -s dist/index.html
           node --check dist/app-v2.js
+          node scripts/check-install.mjs
           node --check dist/full-reader.js
           node scripts/verify-full-reader.cjs
           node scripts/verify-analytics.cjs
