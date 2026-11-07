@@ -37,6 +37,7 @@ python3 scripts/build-catalog.py
 python3 scripts/verify-catalog.py
 node --check dist/app-v2.js
 node --check dist/sw.js
+node scripts/check-install.mjs
 ```
 
 Se requieren Python 3 y Poppler (`pdftotext`). La app publicada es estática y no necesita compilador JavaScript. Cambiar la versión de caché en `dist/sw.js` al modificar datos o fuentes.
@@ -61,7 +62,7 @@ E11 se presenta como «Diabetes mellitus tipo 2». Las cinco referencias E11 inc
 
 La identidad de cada familia continúa en el interior de la ficha, en ambas versiones de consulta. La navegación general conserva el celeste. El encabezado identifica el primer nivel de atención.
 
-La instalación tiene el botón Instalar app en el encabezado. La guía diferencia iPhone/Safari, Android/Chrome y computadora (Chrome/Edge en Windows y Safari en Mac), explica cómo salir del navegador integrado de mensajería y permite copiar el enlace. Los pasos enlazan a la documentación oficial de Apple y Google. El botón de instalación del navegador solo aparece cuando este ofrece la función.
+La instalación tiene el botón Instalar app en el encabezado. La guía diferencia iPhone/Safari, Android/Chrome y computadora (Chrome/Edge en Windows y Safari en Mac), explica cómo salir del navegador integrado de mensajería y permite copiar el enlace. Los pasos enlazan a la documentación oficial de Apple y Google. El botón de instalación del navegador solo aparece cuando este ofrece la función. Cada solicitud se usa una sola vez; al cancelar o fallar, la guía permanece abierta. La aceptación de la solicitud no se muestra como una instalación completada. `node scripts/check-install.mjs` comprueba esos resultados, los reintentos y el bloqueo del doble clic.
 
 ## Observaciones y mejoras
 
